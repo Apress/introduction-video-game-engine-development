@@ -1,0 +1,1065 @@
+
+#----------------------------- Global Properties ----------------------------#
+
+/outputDir:bin/$(Platform)
+/intermediateDir:obj/$(Platform)
+/platform:DesktopGL
+/config:
+/profile:Reach
+/compress:False
+
+#-------------------------------- References --------------------------------#
+
+
+#---------------------------------- Content ---------------------------------#
+
+#begin SerifFontBold1.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontBold1.spritefont
+
+#begin SerifFontBold10.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontBold10.spritefont
+
+#begin SerifFontBold11.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontBold11.spritefont
+
+#begin SerifFontBold12.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontBold12.spritefont
+
+#begin SerifFontBold13.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontBold13.spritefont
+
+#begin SerifFontBold14.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontBold14.spritefont
+
+#begin SerifFontBold15.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontBold15.spritefont
+
+#begin SerifFontBold16.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontBold16.spritefont
+
+#begin SerifFontBold17.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontBold17.spritefont
+
+#begin SerifFontBold18.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontBold18.spritefont
+
+#begin SerifFontBold19.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontBold19.spritefont
+
+#begin SerifFontBold2.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontBold2.spritefont
+
+#begin SerifFontBold20.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontBold20.spritefont
+
+#begin SerifFontBold21.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontBold21.spritefont
+
+#begin SerifFontBold22.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontBold22.spritefont
+
+#begin SerifFontBold23.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontBold23.spritefont
+
+#begin SerifFontBold24.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontBold24.spritefont
+
+#begin SerifFontBold25.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontBold25.spritefont
+
+#begin SerifFontBold26.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontBold26.spritefont
+
+#begin SerifFontBold27.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontBold27.spritefont
+
+#begin SerifFontBold28.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontBold28.spritefont
+
+#begin SerifFontBold29.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontBold29.spritefont
+
+#begin SerifFontBold3.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontBold3.spritefont
+
+#begin SerifFontBold30.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontBold30.spritefont
+
+#begin SerifFontBold31.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontBold31.spritefont
+
+#begin SerifFontBold32.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontBold32.spritefont
+
+#begin SerifFontBold33.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontBold33.spritefont
+
+#begin SerifFontBold34.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontBold34.spritefont
+
+#begin SerifFontBold35.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontBold35.spritefont
+
+#begin SerifFontBold36.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontBold36.spritefont
+
+#begin SerifFontBold37.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontBold37.spritefont
+
+#begin SerifFontBold38.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontBold38.spritefont
+
+#begin SerifFontBold39.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontBold39.spritefont
+
+#begin SerifFontBold4.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontBold4.spritefont
+
+#begin SerifFontBold40.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontBold40.spritefont
+
+#begin SerifFontBold41.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontBold41.spritefont
+
+#begin SerifFontBold42.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontBold42.spritefont
+
+#begin SerifFontBold43.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontBold43.spritefont
+
+#begin SerifFontBold44.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontBold44.spritefont
+
+#begin SerifFontBold45.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontBold45.spritefont
+
+#begin SerifFontBold46.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontBold46.spritefont
+
+#begin SerifFontBold47.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontBold47.spritefont
+
+#begin SerifFontBold48.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontBold48.spritefont
+
+#begin SerifFontBold49.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontBold49.spritefont
+
+#begin SerifFontBold5.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontBold5.spritefont
+
+#begin SerifFontBold50.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontBold50.spritefont
+
+#begin SerifFontBold6.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontBold6.spritefont
+
+#begin SerifFontBold7.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontBold7.spritefont
+
+#begin SerifFontBold8.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontBold8.spritefont
+
+#begin SerifFontBold9.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontBold9.spritefont
+
+#begin SerifFontItalic1.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontItalic1.spritefont
+
+#begin SerifFontItalic10.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontItalic10.spritefont
+
+#begin SerifFontItalic11.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontItalic11.spritefont
+
+#begin SerifFontItalic12.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontItalic12.spritefont
+
+#begin SerifFontItalic13.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontItalic13.spritefont
+
+#begin SerifFontItalic14.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontItalic14.spritefont
+
+#begin SerifFontItalic15.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontItalic15.spritefont
+
+#begin SerifFontItalic16.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontItalic16.spritefont
+
+#begin SerifFontItalic17.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontItalic17.spritefont
+
+#begin SerifFontItalic18.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontItalic18.spritefont
+
+#begin SerifFontItalic19.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontItalic19.spritefont
+
+#begin SerifFontItalic2.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontItalic2.spritefont
+
+#begin SerifFontItalic20.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontItalic20.spritefont
+
+#begin SerifFontItalic21.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontItalic21.spritefont
+
+#begin SerifFontItalic22.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontItalic22.spritefont
+
+#begin SerifFontItalic23.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontItalic23.spritefont
+
+#begin SerifFontItalic24.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontItalic24.spritefont
+
+#begin SerifFontItalic25.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontItalic25.spritefont
+
+#begin SerifFontItalic26.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontItalic26.spritefont
+
+#begin SerifFontItalic27.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontItalic27.spritefont
+
+#begin SerifFontItalic28.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontItalic28.spritefont
+
+#begin SerifFontItalic29.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontItalic29.spritefont
+
+#begin SerifFontItalic3.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontItalic3.spritefont
+
+#begin SerifFontItalic30.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontItalic30.spritefont
+
+#begin SerifFontItalic31.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontItalic31.spritefont
+
+#begin SerifFontItalic32.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontItalic32.spritefont
+
+#begin SerifFontItalic33.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontItalic33.spritefont
+
+#begin SerifFontItalic34.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontItalic34.spritefont
+
+#begin SerifFontItalic35.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontItalic35.spritefont
+
+#begin SerifFontItalic36.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontItalic36.spritefont
+
+#begin SerifFontItalic37.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontItalic37.spritefont
+
+#begin SerifFontItalic38.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontItalic38.spritefont
+
+#begin SerifFontItalic39.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontItalic39.spritefont
+
+#begin SerifFontItalic4.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontItalic4.spritefont
+
+#begin SerifFontItalic40.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontItalic40.spritefont
+
+#begin SerifFontItalic41.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontItalic41.spritefont
+
+#begin SerifFontItalic42.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontItalic42.spritefont
+
+#begin SerifFontItalic43.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontItalic43.spritefont
+
+#begin SerifFontItalic44.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontItalic44.spritefont
+
+#begin SerifFontItalic45.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontItalic45.spritefont
+
+#begin SerifFontItalic46.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontItalic46.spritefont
+
+#begin SerifFontItalic47.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontItalic47.spritefont
+
+#begin SerifFontItalic48.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontItalic48.spritefont
+
+#begin SerifFontItalic49.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontItalic49.spritefont
+
+#begin SerifFontItalic5.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontItalic5.spritefont
+
+#begin SerifFontItalic50.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontItalic50.spritefont
+
+#begin SerifFontItalic6.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontItalic6.spritefont
+
+#begin SerifFontItalic7.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontItalic7.spritefont
+
+#begin SerifFontItalic8.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontItalic8.spritefont
+
+#begin SerifFontItalic9.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontItalic9.spritefont
+
+#begin SerifFontNorm1.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontNorm1.spritefont
+
+#begin SerifFontNorm10.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontNorm10.spritefont
+
+#begin SerifFontNorm11.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontNorm11.spritefont
+
+#begin SerifFontNorm12.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontNorm12.spritefont
+
+#begin SerifFontNorm13.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontNorm13.spritefont
+
+#begin SerifFontNorm14.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontNorm14.spritefont
+
+#begin SerifFontNorm15.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontNorm15.spritefont
+
+#begin SerifFontNorm16.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontNorm16.spritefont
+
+#begin SerifFontNorm17.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontNorm17.spritefont
+
+#begin SerifFontNorm18.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontNorm18.spritefont
+
+#begin SerifFontNorm19.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontNorm19.spritefont
+
+#begin SerifFontNorm2.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontNorm2.spritefont
+
+#begin SerifFontNorm20.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontNorm20.spritefont
+
+#begin SerifFontNorm21.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontNorm21.spritefont
+
+#begin SerifFontNorm22.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontNorm22.spritefont
+
+#begin SerifFontNorm23.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontNorm23.spritefont
+
+#begin SerifFontNorm24.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontNorm24.spritefont
+
+#begin SerifFontNorm25.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontNorm25.spritefont
+
+#begin SerifFontNorm26.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontNorm26.spritefont
+
+#begin SerifFontNorm27.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontNorm27.spritefont
+
+#begin SerifFontNorm28.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontNorm28.spritefont
+
+#begin SerifFontNorm29.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontNorm29.spritefont
+
+#begin SerifFontNorm3.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontNorm3.spritefont
+
+#begin SerifFontNorm30.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontNorm30.spritefont
+
+#begin SerifFontNorm31.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontNorm31.spritefont
+
+#begin SerifFontNorm32.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontNorm32.spritefont
+
+#begin SerifFontNorm33.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontNorm33.spritefont
+
+#begin SerifFontNorm34.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontNorm34.spritefont
+
+#begin SerifFontNorm35.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontNorm35.spritefont
+
+#begin SerifFontNorm36.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontNorm36.spritefont
+
+#begin SerifFontNorm37.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontNorm37.spritefont
+
+#begin SerifFontNorm38.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontNorm38.spritefont
+
+#begin SerifFontNorm39.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontNorm39.spritefont
+
+#begin SerifFontNorm4.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontNorm4.spritefont
+
+#begin SerifFontNorm40.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontNorm40.spritefont
+
+#begin SerifFontNorm41.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontNorm41.spritefont
+
+#begin SerifFontNorm42.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontNorm42.spritefont
+
+#begin SerifFontNorm43.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontNorm43.spritefont
+
+#begin SerifFontNorm44.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontNorm44.spritefont
+
+#begin SerifFontNorm45.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontNorm45.spritefont
+
+#begin SerifFontNorm46.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontNorm46.spritefont
+
+#begin SerifFontNorm47.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontNorm47.spritefont
+
+#begin SerifFontNorm48.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontNorm48.spritefont
+
+#begin SerifFontNorm49.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontNorm49.spritefont
+
+#begin SerifFontNorm5.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontNorm5.spritefont
+
+#begin SerifFontNorm50.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontNorm50.spritefont
+
+#begin SerifFontNorm6.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontNorm6.spritefont
+
+#begin SerifFontNorm7.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontNorm7.spritefont
+
+#begin SerifFontNorm8.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontNorm8.spritefont
+
+#begin SerifFontNorm9.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color16Bit
+/build:SerifFontNorm9.spritefont
+

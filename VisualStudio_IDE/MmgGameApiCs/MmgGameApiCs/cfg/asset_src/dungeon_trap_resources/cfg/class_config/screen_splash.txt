@@ -1,0 +1,9 @@
+bmpLogo->logo_large.jpg
+
+splashScreenDisplayTimeMs=2000.0
+
+splashLogoScale=1.00
+#splashLogoOffsetX=0
+#splashLogoOffsetY=0
+#splashLogoPosX=0
+#splashLogoPosY=0

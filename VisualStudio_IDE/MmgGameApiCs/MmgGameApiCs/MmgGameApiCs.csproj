@@ -1,0 +1,200 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <PublishReadyToRun>false</PublishReadyToRun>
+    <TieredCompilation>false</TieredCompilation>
+    <RootNamespace>net.middlemind.MmgGameApiCs</RootNamespace>
+    <ReleaseVersion>1.0</ReleaseVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <CustomCommands>
+      <CustomCommands>
+        <Command>
+          <type>BeforeBuild</type>
+        </Command>
+      </CustomCommands>
+    </CustomCommands>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Icon.ico" />
+    <None Remove="Icon.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icon.ico" />
+    <EmbeddedResource Include="Icon.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <MonoGameContentReference Include="Content\Content.mgcb" />
+  </ItemGroup>
+  <ItemGroup>
+    <TrimmerRootAssembly Include="Microsoft.Xna.Framework.Content.ContentTypeReader" Visible="false" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="MonoGame.Framework.DesktopGL" Version="3.8.0.1641" />
+    <PackageReference Include="MonoGame.Content.Builder.Task" Version="3.8.0.1641" />
+    <PackageReference Include="MonoGame.Framework.Content.Pipeline" Version="3.8.0.1641" />
+    <PackageReference Include="MSTest.TestFramework" Version="2.2.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="src\" />
+    <Folder Include="src\net\middlemind\MmgGameApiCs\MmgUnitTests\" />
+    <Folder Include="src\net\middlemind\PongClone\" />
+    <Folder Include="src\net\middlemind\PongClone\Chapter16\" />
+    <Folder Include="src\net\middlemind\PongClone\Chapter18_CompleteGame\" />
+    <Folder Include="src\net\middlemind\DungeonTrap\" />
+    <Folder Include="src\net\middlemind\DungeonTrap\ChapterE1\" />
+    <Folder Include="src\net\middlemind\DungeonTrap\ChapterE2\" />
+    <Folder Include="src\net\middlemind\DungeonTrap\ChapterE3\" />
+    <Folder Include="src\net\middlemind\DungeonTrap\ChapterE4\" />
+    <Folder Include="src\net\middlemind\DungeonTrap\ChapterE4_DemoScreen\" />
+    <Folder Include="cfg\asset_src\dungeon_trap_enum_classes\" />
+    <Folder Include="cfg\asset_src\dungeon_trap_resources\" />
+    <Folder Include="cfg\asset_src\dungeon_trap_base_classes\" />
+    <Folder Include="cfg\asset_src\dungeon_trap_level1_classes\" />
+    <Folder Include="cfg\asset_src\dungeon_trap_level2_classes\" />
+    <Folder Include="cfg\asset_src\dungeon_trap_other_classes\" />
+    <Folder Include="src\net\middlemind\DungeonTrap\ChapterE5_Phase1\" />
+    <Folder Include="cfg\asset_src\dungeon_trap_chapterE4_demo_screen\" />
+    <Folder Include="cfg\asset_src\dungeon_trap_chapterE4_orig_screen\" />
+    <Folder Include="src\net\middlemind\DungeonTrap\ChapterE5_Phase2\" />
+    <Folder Include="src\net\middlemind\DungeonTrap\ChapterE5_Phase3_CompleteGame\" />
+    <Folder Include="cfg\asset_src\dungeon_trap_chapterE5_phase1\" />
+    <Folder Include="cfg\asset_src\dungeon_trap_chapterE5_phase2\" />
+    <Folder Include="cfg\asset_src\dungeon_trap_chapterE5_phase3\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="src\net\middlemind\MmgGameApiCs\MmgCore\RunFrameRate.cs" />
+    <Compile Remove="src\net\middlemind\MmgGameApiCs\MmgBase\MmgBmpFontXna.cs" />
+    <Compile Remove="cfg\asset_src\dungeon_trap_base_classes\MdtBase.cs" />
+    <Compile Remove="cfg\asset_src\dungeon_trap_base_classes\MdtItem.cs" />
+    <Compile Remove="cfg\asset_src\dungeon_trap_base_classes\MdtDesc.cs" />
+    <Compile Remove="cfg\asset_src\dungeon_trap_base_classes\MdtChar.cs" />
+    <Compile Remove="cfg\asset_src\dungeon_trap_base_classes\MdtObj.cs" />
+    <Compile Remove="cfg\asset_src\dungeon_trap_base_classes\MdtWeapon.cs" />
+    <Compile Remove="cfg\asset_src\dungeon_trap_enum_classes\MdtItemPotionType.cs" />
+    <Compile Remove="cfg\asset_src\dungeon_trap_enum_classes\MdtEnemyMotorType.cs" />
+    <Compile Remove="cfg\asset_src\dungeon_trap_enum_classes\MdtObjType.cs" />
+    <Compile Remove="cfg\asset_src\dungeon_trap_enum_classes\MdtItemType.cs" />
+    <Compile Remove="cfg\asset_src\dungeon_trap_enum_classes\MdtPointsType.cs" />
+    <Compile Remove="cfg\asset_src\dungeon_trap_enum_classes\MdtWeaponAttackType.cs" />
+    <Compile Remove="cfg\asset_src\dungeon_trap_enum_classes\MdtWeaponType.cs" />
+    <Compile Remove="cfg\asset_src\dungeon_trap_enum_classes\MdtDoorType.cs" />
+    <Compile Remove="cfg\asset_src\dungeon_trap_enum_classes\MdtObjSubType.cs" />
+    <Compile Remove="cfg\asset_src\dungeon_trap_enum_classes\MdtWeaponPathType.cs" />
+    <Compile Remove="cfg\asset_src\dungeon_trap_enum_classes\MdtPlayerType.cs" />
+    <Compile Remove="cfg\asset_src\dungeon_trap_enum_classes\MdtPlayerModType.cs" />
+    <Compile Remove="cfg\asset_src\dungeon_trap_level1_classes\MdtWeaponSpear.cs" />
+    <Compile Remove="cfg\asset_src\dungeon_trap_level1_classes\MdtItemPotion.cs" />
+    <Compile Remove="cfg\asset_src\dungeon_trap_level1_classes\MdtWeaponAxe.cs" />
+    <Compile Remove="cfg\asset_src\dungeon_trap_level1_classes\MdtWeaponSword.cs" />
+    <Compile Remove="cfg\asset_src\dungeon_trap_level1_classes\MdtObjTorch.cs" />
+    <Compile Remove="cfg\asset_src\dungeon_trap_level1_classes\MdtItemCoinBag.cs" />
+    <Compile Remove="cfg\asset_src\dungeon_trap_level1_classes\MdtItemBomb.cs" />
+    <Compile Remove="cfg\asset_src\dungeon_trap_level1_classes\MdtObjPush.cs" />
+    <Compile Remove="cfg\asset_src\dungeon_trap_level1_classes\MdtItemChest.cs" />
+    <Compile Remove="cfg\asset_src\dungeon_trap_level1_classes\MdtCharInter.cs" />
+    <Compile Remove="cfg\asset_src\dungeon_trap_level2_classes\MdtCharInterWarlock.cs" />
+    <Compile Remove="cfg\asset_src\dungeon_trap_level2_classes\MdtItemPotionRed.cs" />
+    <Compile Remove="cfg\asset_src\dungeon_trap_level2_classes\MdtObjPushTableSmall.cs" />
+    <Compile Remove="cfg\asset_src\dungeon_trap_level2_classes\MdtObjPushTableLarge.cs" />
+    <Compile Remove="cfg\asset_src\dungeon_trap_level2_classes\MdtCharInterBanshee.cs" />
+    <Compile Remove="cfg\asset_src\dungeon_trap_level2_classes\MdtItemPotionGreen.cs" />
+    <Compile Remove="cfg\asset_src\dungeon_trap_level2_classes\MdtItemPotionYellow.cs" />
+    <Compile Remove="cfg\asset_src\dungeon_trap_level2_classes\MdtCharInterDemon.cs" />
+    <Compile Remove="cfg\asset_src\dungeon_trap_level2_classes\MdtCharInterPlayer.cs" />
+    <Compile Remove="cfg\asset_src\dungeon_trap_level2_classes\MdtObjPushBarrel.cs" />
+    <Compile Remove="cfg\asset_src\dungeon_trap_other_classes\MdtEnemyWave.cs" />
+    <Compile Remove="cfg\asset_src\dungeon_trap_other_classes\MdtUiHealthBar.cs" />
+    <Compile Remove="cfg\asset_src\dungeon_trap_other_classes\MdtUiPoints.cs" />
+    <Compile Remove="cfg\asset_src\dungeon_trap_chapter19_demo_screen\GamePanel.cs" />
+    <Compile Remove="cfg\asset_src\dungeon_trap_chapter19_demo_screen\ScreenGame.cs" />
+    <Compile Remove="cfg\asset_src\dungeon_trap_chapter19_orig_screen\GamePanel.cs" />
+    <Compile Remove="cfg\asset_src\dungeon_trap_chapter19_orig_screen\ScreenGame.cs" />
+    <Compile Remove="cfg\asset_src\dungeon_trap_chapter20_phase3\ScreenGame.cs" />
+    <Compile Remove="cfg\asset_src\dungeon_trap_chapter20_phase2\ScreenGame.cs" />
+    <Compile Remove="cfg\asset_src\dungeon_trap_chapter20_phase1\MdtEnemyWave.cs" />
+    <Compile Remove="cfg\asset_src\dungeon_trap_chapter20_phase1\MdtUiHealthBar.cs" />
+    <Compile Remove="cfg\asset_src\dungeon_trap_chapter20_phase1\MdtUiPoints.cs" />
+    <Compile Remove="cfg\asset_src\dungeon_trap_chapter20_phase1\ScreenGame.cs" />
+    <Compile Remove="cfg\asset_src\dungeon_trap_chapterE4_orig_screen\GamePanel.cs" />
+    <Compile Remove="cfg\asset_src\dungeon_trap_chapterE4_orig_screen\ScreenGame.cs" />
+    <Compile Remove="cfg\asset_src\dungeon_trap_chapterE5_phase1\ScreenGame.cs" />
+    <Compile Remove="cfg\asset_src\dungeon_trap_chapterE5_phase2\ScreenGame.cs" />
+    <Compile Remove="cfg\asset_src\dungeon_trap_chapterE5_phase3\ScreenGame.cs" />
+    <Compile Remove="cfg\asset_src\dungeon_trap_chapterE5_phase1\MdtUiHealthBar.cs" />
+    <Compile Remove="cfg\asset_src\dungeon_trap_chapterE5_phase1\MdtEnemyWave.cs" />
+    <Compile Remove="cfg\asset_src\dungeon_trap_chapterE5_phase1\MdtUiPoints.cs" />
+    <Compile Remove="cfg\asset_src\dungeon_trap_chapterE4_demo_screen\ScreenGame.cs" />
+    <Compile Remove="cfg\asset_src\dungeon_trap_chapterE4_demo_screen\GamePanel.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\net\middlemind\MmgGameApiCs\MmgCore\RunFrameRate.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
+    <None Include="src\net\middlemind\MmgGameApiCs\MmgBase\MmgBmpFontXna.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
+    <None Include="cfg\asset_src\dungeon_trap_base_classes\MdtBase.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
+    <None Include="cfg\asset_src\dungeon_trap_base_classes\MdtItem.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
+    <None Include="cfg\asset_src\dungeon_trap_base_classes\MdtDesc.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
+    <None Include="cfg\asset_src\dungeon_trap_base_classes\MdtChar.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
+    <None Include="cfg\asset_src\dungeon_trap_base_classes\MdtObj.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
+    <None Include="cfg\asset_src\dungeon_trap_base_classes\MdtWeapon.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
+    <None Include="cfg\asset_src\dungeon_trap_chapterE4_demo_screen\GamePanel.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
+    <None Include="cfg\asset_src\dungeon_trap_chapterE4_demo_screen\ScreenGame.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
+    <None Include="cfg\asset_src\dungeon_trap_chapterE4_orig_screen\ScreenGame.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
+    <None Include="cfg\asset_src\dungeon_trap_chapterE5_phase1\MdtEnemyWave.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
+    <None Include="cfg\asset_src\dungeon_trap_chapterE5_phase1\MdtUiHealthBar.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
+    <None Include="cfg\asset_src\dungeon_trap_chapterE5_phase1\MdtUiPoints.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
+    <None Include="cfg\asset_src\dungeon_trap_chapterE5_phase1\ScreenGame.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
+    <None Include="cfg\asset_src\dungeon_trap_chapterE5_phase2\ScreenGame.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
+    <None Include="cfg\asset_src\dungeon_trap_chapterE5_phase3\ScreenGame.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
+    <None Include="cfg\asset_src\dungeon_trap_enum_classes\MdtItemPotionType.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
+    <None Include="cfg\asset_src\dungeon_trap_enum_classes\MdtEnemyMotorType.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
+    <None Include="cfg\asset_src\dungeon_trap_enum_classes\MdtObjType.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
+    <None Include="cfg\asset_src\dungeon_trap_enum_classes\MdtItemType.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
+    <None Include="cfg\asset_src\dungeon_trap_enum_classes\MdtPointsType.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
+    <None Include="cfg\asset_src\dungeon_trap_enum_classes\MdtWeaponAttackType.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
+    <None Include="cfg\asset_src\dungeon_trap_enum_classes\MdtWeaponType.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
+    <None Include="cfg\asset_src\dungeon_trap_enum_classes\MdtDoorType.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
+    <None Include="cfg\asset_src\dungeon_trap_enum_classes\MdtObjSubType.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
+    <None Include="cfg\asset_src\dungeon_trap_enum_classes\MdtWeaponPathType.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
+    <None Include="cfg\asset_src\dungeon_trap_enum_classes\MdtPlayerType.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
+    <None Include="cfg\asset_src\dungeon_trap_enum_classes\MdtPlayerModType.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
+    <None Include="cfg\asset_src\dungeon_trap_level1_classes\MdtWeaponSpear.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
+    <None Include="cfg\asset_src\dungeon_trap_level1_classes\MdtItemPotion.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
+    <None Include="cfg\asset_src\dungeon_trap_level1_classes\MdtWeaponAxe.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
+    <None Include="cfg\asset_src\dungeon_trap_level1_classes\MdtWeaponSword.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
+    <None Include="cfg\asset_src\dungeon_trap_level1_classes\MdtObjTorch.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
+    <None Include="cfg\asset_src\dungeon_trap_level1_classes\MdtItemCoinBag.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
+    <None Include="cfg\asset_src\dungeon_trap_level1_classes\MdtItemBomb.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
+    <None Include="cfg\asset_src\dungeon_trap_level1_classes\MdtObjPush.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
+    <None Include="cfg\asset_src\dungeon_trap_level1_classes\MdtItemChest.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
+    <None Include="cfg\asset_src\dungeon_trap_level1_classes\MdtCharInter.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
+    <None Include="cfg\asset_src\dungeon_trap_level2_classes\MdtCharInterWarlock.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
+    <None Include="cfg\asset_src\dungeon_trap_level2_classes\MdtItemPotionRed.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
+    <None Include="cfg\asset_src\dungeon_trap_level2_classes\MdtObjPushTableSmall.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
+    <None Include="cfg\asset_src\dungeon_trap_level2_classes\MdtObjPushTableLarge.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
+    <None Include="cfg\asset_src\dungeon_trap_level2_classes\MdtCharInterBanshee.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
+    <None Include="cfg\asset_src\dungeon_trap_level2_classes\MdtItemPotionGreen.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
+    <None Include="cfg\asset_src\dungeon_trap_level2_classes\MdtItemPotionYellow.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
+    <None Include="cfg\asset_src\dungeon_trap_level2_classes\MdtCharInterDemon.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
+    <None Include="cfg\asset_src\dungeon_trap_level2_classes\MdtCharInterPlayer.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
+    <None Include="cfg\asset_src\dungeon_trap_level2_classes\MdtObjPushBarrel.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
+    <None Include="cfg\asset_src\dungeon_trap_other_classes\MdtEnemyWave.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
+    <None Include="cfg\asset_src\dungeon_trap_other_classes\MdtUiHealthBar.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
+    <None Include="cfg\asset_src\dungeon_trap_other_classes\MdtUiPoints.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
+    <None Include="cfg\asset_src\dungeon_trap_chapterE4_orig_screen\GamePanel.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
+    <None Include="cfg\asset_src\dungeon_trap_chapterE4_orig_screen\GamePanel.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
+    <None Include="cfg\asset_src\dungeon_trap_chapterE4_orig_screen\ScreenGame.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
+    <None Include="cfg\asset_src\dungeon_trap_chapterE5_phase1\ScreenGame.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
+    <None Include="cfg\asset_src\dungeon_trap_chapterE5_phase2\ScreenGame.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
+    <None Include="cfg\asset_src\dungeon_trap_chapterE5_phase3\ScreenGame.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
+    <None Include="cfg\asset_src\dungeon_trap_chapterE5_phase1\MdtUiHealthBar.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
+    <None Include="cfg\asset_src\dungeon_trap_chapterE5_phase1\MdtEnemyWave.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
+    <None Include="cfg\asset_src\dungeon_trap_chapterE5_phase1\MdtUiPoints.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
+    <None Include="cfg\asset_src\dungeon_trap_chapterE4_demo_screen\ScreenGame.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
+    <None Include="cfg\asset_src\dungeon_trap_chapterE4_demo_screen\GamePanel.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
+  </ItemGroup>
+</Project>

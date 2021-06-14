@@ -1,0 +1,131 @@
+#Game board background
+bmpGameBoard->game_board.png
+
+#Game bounce sounds
+soundBounceNorm->jump1.wav
+soundBounceSuper->jump2.wav
+
+#Game ball
+bmpPongBall->pong_ball.png
+#pongBallScale=1.0
+#pongBallPosY=0
+#pongBallPosX=0
+#pongBallOffsetY=0
+#pongBallOffsetX=0
+
+#Game paddle left
+#paddleLeftWidth=20
+#paddleLeftHeight=0
+
+#Game paddle right
+#paddleRightWidth=20
+#paddleRightHeight=0
+
+#Left score text
+#leftScorePosY=0
+#leftScorePosX=0
+#leftScoreOffsetY=0
+#leftScoreOffsetX=0
+
+#Right score text
+#rightScorePosY=0
+#rightScorePosX=0
+#rightScoreOffsetY=0
+#rightScoreOffsetX=0
+
+#Exit text
+strExitText->Press B to Exit!
+#exitTextPosY=0
+#exitTextPosX=0
+#exitTextOffsetY=0
+#exitTextOffsetX=0
+
+#Exit text background
+#exitTextBgroundWidth=0
+#exitTextBgroundHeight=0
+#exitTextBgroundPosX=0
+#exitTextBgroundPosY=0
+#exitTextBgroundOffsetY=0
+#exitTextBgroundOffsetX=0
+
+#Countdown number 1
+bmpNumberOne->num_1_lrg.png
+#numberOneScale=1.0
+#numberOnePosY=0
+#numberOnePosX=0
+#numberOneOffsetY=0
+#numberOneOffsetX=0
+
+#Countdown number 2
+bmpNumberTwo->num_2_lrg.png
+#numberTwoScale=1.0
+#numberTwoPosY=0
+#numberTwoPosX=0
+#numberTwoOffsetY=0
+#numberTwoOffsetX=0
+
+#Countdown number 3
+bmpNumberThree->num_3_lrg.png
+#numberThreeScale=1.0
+#numberThreePosY=0
+#numberThreePosX=0
+#numberThreeOffsetY=0
+#numberThreeOffsetX=0
+
+#Text game win text
+strGoalText->Goal: First player to 7 points wins.
+#goalTextPosY=0
+#goalTextPosX=0
+#goalTextOffsetY=0
+#goalTextOffsetX=0
+
+#Text direction player 1
+strPlayer1DirectionText->Player 1: Right paddle, use UP, DOWN keys to move paddle.
+#player1DirectionTextPosY=0
+#player1DirectionTextPosX=0
+#player1DirectionTextOffsetY=0
+#player1DirectionTextOffsetX=0
+
+#Text direction player 2
+strPlayer2DirectionText->Player 2: Left paddle, use MOUSE or S, X keys to move paddle.
+#player2DirectionTextPosY=0
+#player2DirectionTextPosX=0
+#player2DirectionTextOffsetY=0
+#player2DirectionTextOffsetX=0
+
+#Text game over 1
+strTextGameOver1->Player 1 has won the game. Press A or B to exit.
+#textGameOver1PosY=0
+#textGameOver1PosX=0
+#textGameOver1OffsetY=0
+#textGameOver1OffsetX=0
+
+#Text game over 2
+strTextGameOver2->Player 2 has won the game. Press A or B to exit.
+#textGameOver2PosY=0
+#textGameOver2PosX=0
+#textGameOver2OffsetY=0
+#textGameOver2OffsetX=0
+
+#Popup window base
+bmpPopupWindowBase->popup_window_base.png
+#popupWindowBaseWidth=0
+#popupWindowBaseHeight=0
+#popupWindowBasePosY=0
+#popupWindowBasePosX=0
+#popupWindowBaseOffsetY=0
+#popupWindowBaseOffsetY=0
+
+#Popup window text exit
+strPopupWindowTextExit->Exit Game (A)
+#popupWindowTextExitPosY=0
+#popupWindowTextExitPosX=0
+#popupWindowTextExitOffsetY=0
+#popupWindowTextExitOffsetY=0
+
+#Popup window text cancel
+strPopupWindowTextCancel->Cancel Exit (B)
+#popupWindowTextCancelPosY=0
+#popupWindowTextCancelPosX=0
+#popupWindowTextCancelOffsetY=0
+#popupWindowTextCancelOffsetY=0

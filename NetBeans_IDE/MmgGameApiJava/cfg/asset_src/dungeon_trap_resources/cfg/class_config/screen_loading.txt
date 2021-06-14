@@ -1,0 +1,14 @@
+bmpLogo->odroid_logo2.png
+
+loadingLogoSlowDown=0
+
+loadingLogoScale=0.75
+#loadingLogoOffsetY=0
+#loadingLogoOffsetX=0
+#loadingLogoPosY=0
+#loadingLogoPosX=0
+
+#loadingBarOffsetY=0
+loadingBarOffsetX=-2
+loadingBarPosY=260
+#loadingBarPosX=0

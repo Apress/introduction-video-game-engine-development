@@ -1,0 +1,1464 @@
+AdjustedArgs: 
+Found platform: linux
+This is Unix or Linux
+Found engine config file: ../../../cfg/engine_config_mmg_dungeon_trap.xml
+Found Key: LOGGING Value: true Type: bool From: MmgHelper
+Found Key: NAME Value: MmgDungeonTrap Type: string From: GameSettings
+Found Key: BMP_CACHE_ON Value: true Type: bool From: GameSettings
+Found Key: BMP_PREFIX Value: images_ Type: string From: GameSettings
+Found Key: TITLE Value: Dungeon Trap Type: string From: GameSettings
+Found Key: VERSION Value: 1.0.0 Type: string From: GameSettings
+Found Key: DEVELOPER_COMPANY Value: MMG Type: string From: GameSettings
+Found Key: BMP_PREFIX_CONSOLE Value: console_images_ Type: string From: GameSettings
+Engine config load result: True
+Importing MmgHelper field: LOGGING with value: true with type: bool from: MmgHelper
+Importing GameSettings field: NAME with value: MmgDungeonTrap with type: string from: GameSettings
+Importing GameSettings field: BMP_CACHE_ON with value: true with type: bool from: GameSettings
+Importing GameSettings field: BMP_PREFIX with value: images_ with type: string from: GameSettings
+Importing GameSettings field: TITLE with value: Dungeon Trap with type: string from: GameSettings
+Importing GameSettings field: VERSION with value: 1.0.0 with type: string from: GameSettings
+Importing GameSettings field: DEVELOPER_COMPANY with value: MMG with type: string from: GameSettings
+Importing GameSettings field: BMP_PREFIX_CONSOLE with value: console_images_ with type: string from: GameSettings
+Window Width: 862
+Window Height: 604
+Panel Width: 856
+Panel Height: 598
+Game Width: 854
+Game Height: 416
+GamePanel: WinWidth: 856
+GamePanel: WinHeight: 598
+GamePanel: GameWidth: 854
+GamePanel: GameHeight: 416
+TargetFPS: GameHeight: 30
+===============LoadContent
+
+GamePanel Window Width: 856
+GamePanel Window Height: 598
+GamePanel Offset X: 3
+GamePanel Offset Y: 3
+Calculate Scale X: Found X,Y Scale: 1.0000919203747065, ResF: 32.00294145199061, ResI: 32, Diff: 0.002941451990608357, Count: 9
+
+--- MmgScreenData ---
+Screen Width: 856
+Screen Height: 598
+Game Width: 854
+Game Height: 416
+Game Offset X: 1
+Game Offset Y: 91
+Scale X: 1.0000919203747065
+Scale Y: 1.0000919203747065
+
+
+--- MmgFontData ---
+MmgFontData: Font Size: 16
+MmgFontData: Target Pixel Height (Unscaled): 22
+MmgFontData: Target Pixel Height (Scaled): 22
+
+FontHeight: 21, 16
+GpioHub: GPIO directory, /sys/class/gpio/, does not exist. Disabling class functionality.
+GamePanel: RunUnitTests: False
+Hiding BLANK screen.
+Switching Game State To: SPLASH
+Showing SPLASH screen.
+ScreenSplash: LoadResources: ../../../cfg/class_config/screen_splash.txt
+ScreenSplash: LoadResources: ScreenSplash Logo is NOT null.
+ScreenSplash: LoadResources: ../../../cfg/drawable/logo_large.jpg
+ScreenSplash: Loadresources: 0
+Hiding SPLASH screen.
+Switching Game State To: LOADING
+Showing LOADING screen.
+Found auto_load file: jump2.wav Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/playable/auto_load/jump2.wav
+LoadingScreen: POS: 0 LEN: 118000 PRCT: 0 LR: False LC: False
+ByteArrayLength: 30262
+FileName: jump2.wav
+Found auto_load file: jump1.wav Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/playable/auto_load/jump1.wav
+LoadingScreen: POS: 1000 LEN: 118000 PRCT: 0.008474576 LR: False LC: False
+Found auto_load file: game_sub_title.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/auto_load/game_sub_title.png
+LoadingScreen: POS: 0 LEN: 118000 PRCT: 0 LR: True LC: False
+ByteArrayLength: 71462
+FileName: jump1.wav
+ByteArrayLength: 2561
+FileName: game_sub_title.png
+Found auto_load file: dpad_left.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/auto_load/dpad_left.png
+LoadingScreen: POS: 1000 LEN: 118000 PRCT: 0.008474576 LR: True LC: False
+ByteArrayLength: 1236
+FileName: dpad_left.png
+Found auto_load file: scroll_bar_up_sm.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/auto_load/scroll_bar_up_sm.png
+LoadingScreen: POS: 2000 LEN: 118000 PRCT: 0.016949153 LR: True LC: False
+ByteArrayLength: 453
+FileName: scroll_bar_up_sm.png
+Found auto_load file: Caeldera_22pt_white.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/auto_load/Caeldera_22pt_white.png
+LoadingScreen: POS: 3000 LEN: 118000 PRCT: 0.025423728 LR: True LC: False
+ByteArrayLength: 9693
+FileName: Caeldera_22pt_white.png
+Found auto_load file: scroll_bar_slider_sm.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/auto_load/scroll_bar_slider_sm.png
+LoadingScreen: POS: 4000 LEN: 118000 PRCT: 0.033898305 LR: True LC: False
+ByteArrayLength: 292
+FileName: scroll_bar_slider_sm.png
+Found auto_load file: a_btn.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/auto_load/a_btn.png
+LoadingScreen: POS: 5000 LEN: 118000 PRCT: 0.042372882 LR: True LC: False
+ByteArrayLength: 5193
+FileName: a_btn.png
+Found auto_load file: exit_game.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/auto_load/exit_game.png
+LoadingScreen: POS: 6000 LEN: 118000 PRCT: 0.050847456 LR: True LC: False
+ByteArrayLength: 3256
+FileName: exit_game.png
+Found auto_load file: popup_window_base_64.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/auto_load/popup_window_base_64.png
+LoadingScreen: POS: 7000 LEN: 118000 PRCT: 0.059322033 LR: True LC: False
+ByteArrayLength: 1275
+FileName: popup_window_base_64.png
+Found auto_load file: dpad_up.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/auto_load/dpad_up.png
+LoadingScreen: POS: 8000 LEN: 118000 PRCT: 0.06779661 LR: True LC: False
+ByteArrayLength: 1212
+FileName: dpad_up.png
+Found auto_load file: footer_url.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/auto_load/footer_url.png
+LoadingScreen: POS: 9000 LEN: 118000 PRCT: 0.076271184 LR: True LC: False
+ByteArrayLength: 1767
+FileName: footer_url.png
+Found auto_load file: scroll_bar_right_sm.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/auto_load/scroll_bar_right_sm.png
+LoadingScreen: POS: 10000 LEN: 118000 PRCT: 0.084745765 LR: True LC: False
+ByteArrayLength: 453
+FileName: scroll_bar_right_sm.png
+Found auto_load file: cursor_hand_sm_right.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/auto_load/cursor_hand_sm_right.png
+LoadingScreen: POS: 11000 LEN: 118000 PRCT: 0.09322034 LR: True LC: False
+ByteArrayLength: 1497
+FileName: cursor_hand_sm_right.png
+Found auto_load file: scroll_bar_down.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/auto_load/scroll_bar_down.png
+LoadingScreen: POS: 12000 LEN: 118000 PRCT: 0.10169491 LR: True LC: False
+ByteArrayLength: 820
+FileName: scroll_bar_down.png
+Found auto_load file: scroll_bar_up.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/auto_load/scroll_bar_up.png
+LoadingScreen: POS: 13000 LEN: 118000 PRCT: 0.11016949 LR: True LC: False
+ByteArrayLength: 806
+FileName: scroll_bar_up.png
+Found auto_load file: scroll_bar_slider.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/auto_load/scroll_bar_slider.png
+LoadingScreen: POS: 14000 LEN: 118000 PRCT: 0.118644066 LR: True LC: False
+ByteArrayLength: 356
+FileName: scroll_bar_slider.png
+Found auto_load file: b_btn.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/auto_load/b_btn.png
+LoadingScreen: POS: 15000 LEN: 118000 PRCT: 0.12711865 LR: True LC: False
+ByteArrayLength: 5247
+FileName: b_btn.png
+Found auto_load file: scroll_bar_right.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/auto_load/scroll_bar_right.png
+LoadingScreen: POS: 16000 LEN: 118000 PRCT: 0.13559322 LR: True LC: False
+ByteArrayLength: 846
+FileName: scroll_bar_right.png
+Found auto_load file: scroll_bar_left.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/auto_load/scroll_bar_left.png
+LoadingScreen: POS: 17000 LEN: 118000 PRCT: 0.1440678 LR: True LC: False
+ByteArrayLength: 882
+FileName: scroll_bar_left.png
+Found auto_load file: Caeldera_22pt_black.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/auto_load/Caeldera_22pt_black.png
+LoadingScreen: POS: 18000 LEN: 118000 PRCT: 0.15254237 LR: True LC: False
+ByteArrayLength: 9758
+FileName: Caeldera_22pt_black.png
+Found auto_load file: dpad_right.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/auto_load/dpad_right.png
+LoadingScreen: POS: 19000 LEN: 118000 PRCT: 0.16101696 LR: True LC: False
+ByteArrayLength: 1265
+FileName: dpad_right.png
+Found auto_load file: game_title.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/auto_load/game_title.png
+LoadingScreen: POS: 20000 LEN: 118000 PRCT: 0.16949153 LR: True LC: False
+ByteArrayLength: 3664
+FileName: game_title.png
+Found auto_load file: dpad_down.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/auto_load/dpad_down.png
+LoadingScreen: POS: 21000 LEN: 118000 PRCT: 0.1779661 LR: True LC: False
+ByteArrayLength: 1301
+FileName: dpad_down.png
+Found auto_load file: popup_window_base.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/auto_load/popup_window_base.png
+LoadingScreen: POS: 22000 LEN: 118000 PRCT: 0.18644068 LR: True LC: False
+ByteArrayLength: 3061
+FileName: popup_window_base.png
+Found auto_load file: scroll_bar_left_sm.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/auto_load/scroll_bar_left_sm.png
+LoadingScreen: POS: 23000 LEN: 118000 PRCT: 0.19491525 LR: True LC: False
+ByteArrayLength: 479
+FileName: scroll_bar_left_sm.png
+Found auto_load file: start_game.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/auto_load/start_game.png
+LoadingScreen: POS: 24000 LEN: 118000 PRCT: 0.20338982 LR: True LC: False
+ByteArrayLength: 3595
+FileName: start_game.png
+Found auto_load file: cursor_hand_sm_up.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/auto_load/cursor_hand_sm_up.png
+LoadingScreen: POS: 25000 LEN: 118000 PRCT: 0.21186441 LR: True LC: False
+ByteArrayLength: 1502
+FileName: cursor_hand_sm_up.png
+Found auto_load file: scroll_bar_down_sm.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/auto_load/scroll_bar_down_sm.png
+LoadingScreen: POS: 26000 LEN: 118000 PRCT: 0.22033899 LR: True LC: False
+ByteArrayLength: 467
+FileName: scroll_bar_down_sm.png
+Found auto_load file: pts_red_500.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/pts_red_500.png
+LoadingScreen: POS: 27000 LEN: 118000 PRCT: 0.22881356 LR: True LC: False
+ByteArrayLength: 1114
+FileName: pts_red_500.png
+Found auto_load file: pts_blue_100.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/pts_blue_100.png
+LoadingScreen: POS: 28000 LEN: 118000 PRCT: 0.23728813 LR: True LC: False
+ByteArrayLength: 1227
+FileName: pts_blue_100.png
+Found auto_load file: fly_anim_spritesheet_lg.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/fly_anim_spritesheet_lg.png
+LoadingScreen: POS: 29000 LEN: 118000 PRCT: 0.2457627 LR: True LC: False
+ByteArrayLength: 3296
+FileName: fly_anim_spritesheet_lg.png
+Found auto_load file: weapon_sword_dir_back.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/weapon_sword_dir_back.png
+LoadingScreen: POS: 30000 LEN: 118000 PRCT: 0.2542373 LR: True LC: False
+ByteArrayLength: 432
+FileName: weapon_sword_dir_back.png
+Found auto_load file: chest_spritesheet_lg.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/chest_spritesheet_lg.png
+LoadingScreen: POS: 31000 LEN: 118000 PRCT: 0.26271185 LR: True LC: False
+ByteArrayLength: 5390
+FileName: chest_spritesheet_lg.png
+Found auto_load file: goblin_idle_anim_f0_lg.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/goblin_idle_anim_f0_lg.png
+LoadingScreen: POS: 32000 LEN: 118000 PRCT: 0.27118644 LR: True LC: False
+ByteArrayLength: 1845
+FileName: goblin_idle_anim_f0_lg.png
+Found auto_load file: weapon_axe_dir_left.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/weapon_axe_dir_left.png
+LoadingScreen: POS: 33000 LEN: 118000 PRCT: 0.27966103 LR: True LC: False
+ByteArrayLength: 407
+FileName: weapon_axe_dir_left.png
+Found auto_load file: num_1_lrg.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/num_1_lrg.png
+LoadingScreen: POS: 34000 LEN: 118000 PRCT: 0.2881356 LR: True LC: False
+ByteArrayLength: 567
+FileName: num_1_lrg.png
+Found auto_load file: soldier_frame_9.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/soldier_frame_9.png
+LoadingScreen: POS: 35000 LEN: 118000 PRCT: 0.29661018 LR: True LC: False
+ByteArrayLength: 926
+FileName: soldier_frame_9.png
+Found auto_load file: soldier_frame_7_p2.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/soldier_frame_7_p2.png
+LoadingScreen: POS: 36000 LEN: 118000 PRCT: 0.30508474 LR: True LC: False
+ByteArrayLength: 1000
+FileName: soldier_frame_7_p2.png
+Found auto_load file: table_lg.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/table_lg.png
+LoadingScreen: POS: 37000 LEN: 118000 PRCT: 0.31355932 LR: True LC: False
+ByteArrayLength: 2210
+FileName: table_lg.png
+Found auto_load file: soldier_frame_8.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/soldier_frame_8.png
+LoadingScreen: POS: 38000 LEN: 118000 PRCT: 0.3220339 LR: True LC: False
+ByteArrayLength: 902
+FileName: soldier_frame_8.png
+Found auto_load file: soldier_frame_5_p2.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/soldier_frame_5_p2.png
+LoadingScreen: POS: 39000 LEN: 118000 PRCT: 0.33050847 LR: True LC: False
+ByteArrayLength: 895
+FileName: soldier_frame_5_p2.png
+Found auto_load file: mdt_start_game_2p.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/mdt_start_game_2p.png
+LoadingScreen: POS: 40000 LEN: 118000 PRCT: 0.33898306 LR: True LC: False
+ByteArrayLength: 3055
+FileName: mdt_start_game_2p.png
+Found auto_load file: soldier_frame_12.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/soldier_frame_12.png
+LoadingScreen: POS: 41000 LEN: 118000 PRCT: 0.34745762 LR: True LC: False
+ByteArrayLength: 940
+FileName: soldier_frame_12.png
+Found auto_load file: soldier_frame_9_p2.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/soldier_frame_9_p2.png
+LoadingScreen: POS: 42000 LEN: 118000 PRCT: 0.3559322 LR: True LC: False
+ByteArrayLength: 925
+FileName: soldier_frame_9_p2.png
+Found auto_load file: pts_blue_1000.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/pts_blue_1000.png
+LoadingScreen: POS: 43000 LEN: 118000 PRCT: 0.3644068 LR: True LC: False
+ByteArrayLength: 1216
+FileName: pts_blue_1000.png
+Found auto_load file: table_2_lg.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/table_2_lg.png
+LoadingScreen: POS: 44000 LEN: 118000 PRCT: 0.37288135 LR: True LC: False
+ByteArrayLength: 2852
+FileName: table_2_lg.png
+Found auto_load file: bomb_anim_spritesheet_lg.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/bomb_anim_spritesheet_lg.png
+LoadingScreen: POS: 45000 LEN: 118000 PRCT: 0.38135594 LR: True LC: False
+ByteArrayLength: 3662
+FileName: bomb_anim_spritesheet_lg.png
+Found auto_load file: weapon_wand_dir_back.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/weapon_wand_dir_back.png
+LoadingScreen: POS: 46000 LEN: 118000 PRCT: 0.3898305 LR: True LC: False
+ByteArrayLength: 441
+FileName: weapon_wand_dir_back.png
+Found auto_load file: key_silver_lg.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/key_silver_lg.png
+LoadingScreen: POS: 47000 LEN: 118000 PRCT: 0.3983051 LR: True LC: False
+ByteArrayLength: 1565
+FileName: key_silver_lg.png
+Found auto_load file: weapon_spear_dir_back.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/weapon_spear_dir_back.png
+LoadingScreen: POS: 48000 LEN: 118000 PRCT: 0.40677965 LR: True LC: False
+ByteArrayLength: 469
+FileName: weapon_spear_dir_back.png
+Found auto_load file: soldier_frame_11.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/soldier_frame_11.png
+LoadingScreen: POS: 49000 LEN: 118000 PRCT: 0.41525424 LR: True LC: False
+ByteArrayLength: 958
+FileName: soldier_frame_11.png
+Found auto_load file: stair_nextlevel.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/stair_nextlevel.png
+LoadingScreen: POS: 50000 LEN: 118000 PRCT: 0.42372882 LR: True LC: False
+ByteArrayLength: 848
+FileName: stair_nextlevel.png
+Found auto_load file: pts_blue_500.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/pts_blue_500.png
+LoadingScreen: POS: 51000 LEN: 118000 PRCT: 0.43220338 LR: True LC: False
+ByteArrayLength: 1713
+FileName: pts_blue_500.png
+Found auto_load file: pts_red_100.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/pts_red_100.png
+LoadingScreen: POS: 52000 LEN: 118000 PRCT: 0.44067797 LR: True LC: False
+ByteArrayLength: 844
+FileName: pts_red_100.png
+Found auto_load file: soldier_frame_10.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/soldier_frame_10.png
+LoadingScreen: POS: 53000 LEN: 118000 PRCT: 0.44915253 LR: True LC: False
+ByteArrayLength: 938
+FileName: soldier_frame_10.png
+Found auto_load file: door_opened.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/door_opened.png
+LoadingScreen: POS: 54000 LEN: 118000 PRCT: 0.45762712 LR: True LC: False
+ByteArrayLength: 2786
+FileName: door_opened.png
+Found auto_load file: weapon_wand_dir_left.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/weapon_wand_dir_left.png
+LoadingScreen: POS: 55000 LEN: 118000 PRCT: 0.4661017 LR: True LC: False
+ByteArrayLength: 437
+FileName: weapon_wand_dir_left.png
+Found auto_load file: weapon_spear_dir_left.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/weapon_spear_dir_left.png
+LoadingScreen: POS: 56000 LEN: 118000 PRCT: 0.47457626 LR: True LC: False
+ByteArrayLength: 446
+FileName: weapon_spear_dir_left.png
+Found auto_load file: soldier_frame_1_p2.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/soldier_frame_1_p2.png
+LoadingScreen: POS: 57000 LEN: 118000 PRCT: 0.48305085 LR: True LC: False
+ByteArrayLength: 1045
+FileName: soldier_frame_1_p2.png
+Found auto_load file: weapon_axe_dir_front.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/weapon_axe_dir_front.png
+LoadingScreen: POS: 58000 LEN: 118000 PRCT: 0.4915254 LR: True LC: False
+ByteArrayLength: 409
+FileName: weapon_axe_dir_front.png
+Found auto_load file: weapon_axe_dir_right.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/weapon_axe_dir_right.png
+LoadingScreen: POS: 59000 LEN: 118000 PRCT: 0.5 LR: True LC: False
+ByteArrayLength: 393
+FileName: weapon_axe_dir_right.png
+Found auto_load file: goblin_idle_spritesheet_lg.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/goblin_idle_spritesheet_lg.png
+LoadingScreen: POS: 60000 LEN: 118000 PRCT: 0.5084746 LR: True LC: False
+ByteArrayLength: 3271
+FileName: goblin_idle_spritesheet_lg.png
+Found auto_load file: num_2_lrg.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/num_2_lrg.png
+LoadingScreen: POS: 61000 LEN: 118000 PRCT: 0.5169492 LR: True LC: False
+ByteArrayLength: 1040
+FileName: num_2_lrg.png
+Found auto_load file: weapon_wand_dir_front.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/weapon_wand_dir_front.png
+LoadingScreen: POS: 62000 LEN: 118000 PRCT: 0.5254237 LR: True LC: False
+ByteArrayLength: 439
+FileName: weapon_wand_dir_front.png
+Found auto_load file: weapon_wand_dir_right.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/weapon_wand_dir_right.png
+LoadingScreen: POS: 63000 LEN: 118000 PRCT: 0.5338983 LR: True LC: False
+ByteArrayLength: 424
+FileName: weapon_wand_dir_right.png
+Found auto_load file: mdt_footer_url.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/mdt_footer_url.png
+LoadingScreen: POS: 64000 LEN: 118000 PRCT: 0.5423729 LR: True LC: False
+ByteArrayLength: 2070
+FileName: mdt_footer_url.png
+Found auto_load file: fly_anim_f0_lg.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/fly_anim_f0_lg.png
+LoadingScreen: POS: 65000 LEN: 118000 PRCT: 0.5508475 LR: True LC: False
+ByteArrayLength: 1189
+FileName: fly_anim_f0_lg.png
+Found auto_load file: weapon_sword_dir_left.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/weapon_sword_dir_left.png
+LoadingScreen: POS: 66000 LEN: 118000 PRCT: 0.55932206 LR: True LC: False
+ByteArrayLength: 425
+FileName: weapon_sword_dir_left.png
+Found auto_load file: weapon_sword_dir_right.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/weapon_sword_dir_right.png
+LoadingScreen: POS: 67000 LEN: 118000 PRCT: 0.5677966 LR: True LC: False
+ByteArrayLength: 428
+FileName: weapon_sword_dir_right.png
+Found auto_load file: weapon_sword_dir_front.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/weapon_sword_dir_front.png
+LoadingScreen: POS: 68000 LEN: 118000 PRCT: 0.5762712 LR: True LC: False
+ByteArrayLength: 440
+FileName: weapon_sword_dir_front.png
+Found auto_load file: slime_idle_anim_f0_lg.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/slime_idle_anim_f0_lg.png
+LoadingScreen: POS: 69000 LEN: 118000 PRCT: 0.58474576 LR: True LC: False
+ByteArrayLength: 1572
+FileName: slime_idle_anim_f0_lg.png
+Found auto_load file: potion_yellow_lg.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/potion_yellow_lg.png
+LoadingScreen: POS: 70000 LEN: 118000 PRCT: 0.59322035 LR: True LC: False
+ByteArrayLength: 1070
+FileName: potion_yellow_lg.png
+Found auto_load file: weapon_axe_dir_back.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/weapon_axe_dir_back.png
+LoadingScreen: POS: 71000 LEN: 118000 PRCT: 0.60169494 LR: True LC: False
+ByteArrayLength: 395
+FileName: weapon_axe_dir_back.png
+Found auto_load file: num_3_lrg.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/num_3_lrg.png
+LoadingScreen: POS: 72000 LEN: 118000 PRCT: 0.6101695 LR: True LC: False
+ByteArrayLength: 1254
+FileName: num_3_lrg.png
+Found auto_load file: potion_green_lg.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/potion_green_lg.png
+LoadingScreen: POS: 73000 LEN: 118000 PRCT: 0.61864406 LR: True LC: False
+ByteArrayLength: 1083
+FileName: potion_green_lg.png
+Found auto_load file: goblin_knife_lg.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/goblin_knife_lg.png
+LoadingScreen: POS: 74000 LEN: 118000 PRCT: 0.62711865 LR: True LC: False
+ByteArrayLength: 770
+FileName: goblin_knife_lg.png
+Found auto_load file: torch_off.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/torch_off.png
+LoadingScreen: POS: 75000 LEN: 118000 PRCT: 0.63559324 LR: True LC: False
+ByteArrayLength: 1131
+FileName: torch_off.png
+Found auto_load file: soldier_frame_3_p2.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/soldier_frame_3_p2.png
+LoadingScreen: POS: 76000 LEN: 118000 PRCT: 0.6440678 LR: True LC: False
+ByteArrayLength: 998
+FileName: soldier_frame_3_p2.png
+Found auto_load file: soldier_frame_11_p2.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/soldier_frame_11_p2.png
+LoadingScreen: POS: 77000 LEN: 118000 PRCT: 0.65254235 LR: True LC: False
+ByteArrayLength: 962
+FileName: soldier_frame_11_p2.png
+Found auto_load file: potion_red_lg.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/potion_red_lg.png
+LoadingScreen: POS: 78000 LEN: 118000 PRCT: 0.66101694 LR: True LC: False
+ByteArrayLength: 1086
+FileName: potion_red_lg.png
+Found auto_load file: door_locked.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/door_locked.png
+LoadingScreen: POS: 79000 LEN: 118000 PRCT: 0.6694915 LR: True LC: False
+ByteArrayLength: 5171
+FileName: door_locked.png
+Found auto_load file: soldier_frame_6_p2.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/soldier_frame_6_p2.png
+LoadingScreen: POS: 80000 LEN: 118000 PRCT: 0.6779661 LR: True LC: False
+ByteArrayLength: 956
+FileName: soldier_frame_6_p2.png
+Found auto_load file: chest_open_lg.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/chest_open_lg.png
+LoadingScreen: POS: 81000 LEN: 118000 PRCT: 0.6864407 LR: True LC: False
+ByteArrayLength: 1512
+FileName: chest_open_lg.png
+Found auto_load file: mdt_exit_game.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/mdt_exit_game.png
+LoadingScreen: POS: 82000 LEN: 118000 PRCT: 0.69491524 LR: True LC: False
+ByteArrayLength: 2456
+FileName: mdt_exit_game.png
+Found auto_load file: health_ui_lg.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/health_ui_lg.png
+LoadingScreen: POS: 83000 LEN: 118000 PRCT: 0.7033898 LR: True LC: False
+ByteArrayLength: 2806
+FileName: health_ui_lg.png
+Found auto_load file: enemy_demon_spritematrix_w_shadow.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/enemy_demon_spritematrix_w_shadow.png
+LoadingScreen: POS: 84000 LEN: 118000 PRCT: 0.7118644 LR: True LC: False
+ByteArrayLength: 6296
+FileName: enemy_demon_spritematrix_w_shadow.png
+Found auto_load file: enemy_warlock_spritematrix_w_shadow.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/enemy_warlock_spritematrix_w_shadow.png
+LoadingScreen: POS: 85000 LEN: 118000 PRCT: 0.720339 LR: True LC: False
+ByteArrayLength: 4920
+FileName: enemy_warlock_spritematrix_w_shadow.png
+Found auto_load file: weapon_spear_dir_right.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/weapon_spear_dir_right.png
+LoadingScreen: POS: 86000 LEN: 118000 PRCT: 0.7288136 LR: True LC: False
+ByteArrayLength: 448
+FileName: weapon_spear_dir_right.png
+Found auto_load file: weapon_spear_dir_front.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/weapon_spear_dir_front.png
+LoadingScreen: POS: 87000 LEN: 118000 PRCT: 0.7372881 LR: True LC: False
+ByteArrayLength: 472
+FileName: weapon_spear_dir_front.png
+Found auto_load file: pts_red_1000.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/pts_red_1000.png
+LoadingScreen: POS: 88000 LEN: 118000 PRCT: 0.7457627 LR: True LC: False
+ByteArrayLength: 842
+FileName: pts_red_1000.png
+Found auto_load file: goblin_run_spritesheet_lg.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/goblin_run_spritesheet_lg.png
+LoadingScreen: POS: 89000 LEN: 118000 PRCT: 0.7542373 LR: True LC: False
+ByteArrayLength: 5242
+FileName: goblin_run_spritesheet_lg.png
+Found auto_load file: slime_run_anim_f0_lg.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/slime_run_anim_f0_lg.png
+LoadingScreen: POS: 90000 LEN: 118000 PRCT: 0.7627119 LR: True LC: False
+ByteArrayLength: 1602
+FileName: slime_run_anim_f0_lg.png
+Found auto_load file: mdt_game_sub_title.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/mdt_game_sub_title.png
+LoadingScreen: POS: 91000 LEN: 118000 PRCT: 0.7711864 LR: True LC: False
+ByteArrayLength: 3255
+FileName: mdt_game_sub_title.png
+Found auto_load file: soldier_frame_4_p2.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/soldier_frame_4_p2.png
+LoadingScreen: POS: 92000 LEN: 118000 PRCT: 0.779661 LR: True LC: False
+ByteArrayLength: 921
+FileName: soldier_frame_4_p2.png
+Found auto_load file: soldier_frame_8_p2.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/soldier_frame_8_p2.png
+LoadingScreen: POS: 93000 LEN: 118000 PRCT: 0.7881356 LR: True LC: False
+ByteArrayLength: 901
+FileName: soldier_frame_8_p2.png
+Found auto_load file: slime_run_spritesheeet_lg.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/slime_run_spritesheeet_lg.png
+LoadingScreen: POS: 94000 LEN: 118000 PRCT: 0.7966102 LR: True LC: False
+ByteArrayLength: 3236
+FileName: slime_run_spritesheeet_lg.png
+Found auto_load file: explosion_anim_spritesheet_lg.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/explosion_anim_spritesheet_lg.png
+LoadingScreen: POS: 95000 LEN: 118000 PRCT: 0.80508476 LR: True LC: False
+ByteArrayLength: 1756
+FileName: explosion_anim_spritesheet_lg.png
+Found auto_load file: enemy_banshee_spritematrix_w_shadow.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/enemy_banshee_spritematrix_w_shadow.png
+LoadingScreen: POS: 96000 LEN: 118000 PRCT: 0.8135593 LR: True LC: False
+ByteArrayLength: 7761
+FileName: enemy_banshee_spritematrix_w_shadow.png
+Found auto_load file: soldier_frame_3.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/soldier_frame_3.png
+LoadingScreen: POS: 97000 LEN: 118000 PRCT: 0.8220339 LR: True LC: False
+ByteArrayLength: 997
+FileName: soldier_frame_3.png
+Found auto_load file: chest_closed_anim_f0_lg.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/chest_closed_anim_f0_lg.png
+LoadingScreen: POS: 98000 LEN: 118000 PRCT: 0.8305085 LR: True LC: False
+ByteArrayLength: 1795
+FileName: chest_closed_anim_f0_lg.png
+Found auto_load file: torch_spritesheet_lg.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/torch_spritesheet_lg.png
+LoadingScreen: POS: 99000 LEN: 118000 PRCT: 0.83898306 LR: True LC: False
+ByteArrayLength: 4879
+FileName: torch_spritesheet_lg.png
+Found auto_load file: soldier_frame_2.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/soldier_frame_2.png
+LoadingScreen: POS: 100000 LEN: 118000 PRCT: 0.84745765 LR: True LC: False
+ByteArrayLength: 1011
+FileName: soldier_frame_2.png
+Found auto_load file: bag_coins_lg.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/bag_coins_lg.png
+LoadingScreen: POS: 101000 LEN: 118000 PRCT: 0.8559322 LR: True LC: False
+ByteArrayLength: 1038
+FileName: bag_coins_lg.png
+Found auto_load file: pts_red_250.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/pts_red_250.png
+LoadingScreen: POS: 102000 LEN: 118000 PRCT: 0.86440676 LR: True LC: False
+ByteArrayLength: 1361
+FileName: pts_red_250.png
+Found auto_load file: mdt_start_game_1p.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/mdt_start_game_1p.png
+LoadingScreen: POS: 103000 LEN: 118000 PRCT: 0.87288135 LR: True LC: False
+ByteArrayLength: 2792
+FileName: mdt_start_game_1p.png
+Found auto_load file: bomb_anim_f0_lg.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/bomb_anim_f0_lg.png
+LoadingScreen: POS: 104000 LEN: 118000 PRCT: 0.88135594 LR: True LC: False
+ByteArrayLength: 1176
+FileName: bomb_anim_f0_lg.png
+Found auto_load file: soldier_frame_12_p2.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/soldier_frame_12_p2.png
+LoadingScreen: POS: 105000 LEN: 118000 PRCT: 0.8898305 LR: True LC: False
+ByteArrayLength: 948
+FileName: soldier_frame_12_p2.png
+Found auto_load file: dt_level1.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/dt_level1.png
+LoadingScreen: POS: 106000 LEN: 118000 PRCT: 0.89830506 LR: True LC: False
+ByteArrayLength: 67587
+FileName: dt_level1.png
+Found auto_load file: mdt_game_title.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/mdt_game_title.png
+LoadingScreen: POS: 107000 LEN: 118000 PRCT: 0.90677965 LR: True LC: False
+ByteArrayLength: 3803
+FileName: mdt_game_title.png
+Found auto_load file: barrel_lg.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/barrel_lg.png
+LoadingScreen: POS: 108000 LEN: 118000 PRCT: 0.91525424 LR: True LC: False
+ByteArrayLength: 1987
+FileName: barrel_lg.png
+Found auto_load file: soldier_frame_1.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/soldier_frame_1.png
+LoadingScreen: POS: 109000 LEN: 118000 PRCT: 0.9237288 LR: True LC: False
+ByteArrayLength: 1042
+FileName: soldier_frame_1.png
+Found auto_load file: soldier_frame_10_p2.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/soldier_frame_10_p2.png
+LoadingScreen: POS: 110000 LEN: 118000 PRCT: 0.9322034 LR: True LC: False
+ByteArrayLength: 943
+FileName: soldier_frame_10_p2.png
+Found auto_load file: soldier_frame_2_p2.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/soldier_frame_2_p2.png
+LoadingScreen: POS: 111000 LEN: 118000 PRCT: 0.94067794 LR: True LC: False
+ByteArrayLength: 1012
+FileName: soldier_frame_2_p2.png
+Found auto_load file: slime_idle_spritesheet_lg.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/slime_idle_spritesheet_lg.png
+LoadingScreen: POS: 112000 LEN: 118000 PRCT: 0.9491525 LR: True LC: False
+ByteArrayLength: 2797
+FileName: slime_idle_spritesheet_lg.png
+Found auto_load file: soldier_frame_5.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/soldier_frame_5.png
+LoadingScreen: POS: 113000 LEN: 118000 PRCT: 0.9576271 LR: True LC: False
+ByteArrayLength: 904
+FileName: soldier_frame_5.png
+Found auto_load file: pts_blue_250.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/pts_blue_250.png
+LoadingScreen: POS: 114000 LEN: 118000 PRCT: 0.9661017 LR: True LC: False
+ByteArrayLength: 2271
+FileName: pts_blue_250.png
+Found auto_load file: soldier_frame_4.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/soldier_frame_4.png
+LoadingScreen: POS: 115000 LEN: 118000 PRCT: 0.9745763 LR: True LC: False
+ByteArrayLength: 928
+FileName: soldier_frame_4.png
+Found auto_load file: soldier_frame_6.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/soldier_frame_6.png
+LoadingScreen: POS: 116000 LEN: 118000 PRCT: 0.9830508 LR: True LC: False
+ByteArrayLength: 965
+FileName: soldier_frame_6.png
+Found auto_load file: door_lock_icon.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/door_lock_icon.png
+LoadingScreen: POS: 117000 LEN: 118000 PRCT: 0.9915254 LR: True LC: False
+ByteArrayLength: 1310
+FileName: door_lock_icon.png
+Found auto_load file: soldier_frame_7.png Path: /Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/cfg/drawable/MmgDungeonTrap/soldier_frame_7.png
+LoadingScreen: POS: 118000 LEN: 118000 PRCT: 1 LR: True LC: False
+ByteArrayLength: 1001
+FileName: soldier_frame_7.png
+LoadingScreen: POS: 118000 LEN: 118000 PRCT: 1 LR: True LC: True
+Hiding LOADING screen.
+Switching Game State To: MAIN_MENU
+Showing MAIN_MENU screen.
+MmgApi.MmgDebug: ClassConfigFile: ../../../cfg/class_config/MmgDungeonTrap/screen_main_menu.txt
+menuTitleOffsetY OffsetY: -35 - 0
+menuSubTitleOffsetY OffsetY: -10 - 0
+menuStartGame1pOffsetY OffsetY: -15 - 0
+menuStartGame2pOffsetY OffsetY: -15 - 0
+menuExitGameOffsetY OffsetY: -15 - 0
+menuFooterUrlOffsetY OffsetY: 10 - 0
+HasKeyBeenPressed: True Key: LeftWindows KeyDown: True
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+HasKeyBeenPressed: True Key: LeftShift KeyDown: True
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMousePress
+ProcessKeyPress
+ProcessKeyPress
+ProcessMouseClick
+ProcessMouseRelease
+ProcessKeyPress
+ProcessKeyPress
+HasKeyBeenReleased: True Key: LeftWindows
+ProcessKeyClick
+ProcessKeyRelease
+HasKeyBeenReleased: True Key: LeftShift
+ProcessKeyClick
+ProcessKeyRelease
+GamePanel: WindowClosing

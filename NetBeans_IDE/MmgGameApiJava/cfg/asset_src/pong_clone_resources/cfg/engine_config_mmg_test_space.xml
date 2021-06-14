@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<engineconfig version="1.0">
+    <entry key="LOGGING" val="true" type="bool" from="MmgHelper" />
+    <entry key="NAME" val="MmgTestSpace" type="string" from="GameSettings" />    
+    <entry key="BMP_CACHE_ON" val="true" type="bool" from="GameSettings" />
+    <entry key="BMP_PREFIX" val="images_" type="string" from="GameSettings" />
+    <entry key="TITLE" val="Mmg Test Space" type="string" from="GameSettings" />
+    <entry key="VERSION" val="1.0.0" type="string" from="GameSettings" />
+    <entry key="DEVELOPER_COMPANY" val="MMG" type="string" from="GameSettings" />    
+    <entry key="BMP_PREFIX_CONSOLE" val="console_images_" type="string" from="GameSettings" />
+</engineconfig>

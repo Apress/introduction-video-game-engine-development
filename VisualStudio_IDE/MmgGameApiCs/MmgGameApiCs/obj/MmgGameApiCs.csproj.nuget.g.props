@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">/Users/victor/.nuget/packages/</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">/Users/victor/.nuget/packages/;/usr/local/share/dotnet/sdk/NuGetFallbackFolder</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">5.8.0</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="$([MSBuild]::EnsureTrailingSlash($(NuGetPackageFolders)))" />
+  </ItemGroup>
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Content Include="$(NuGetPackageRoot)monogame.framework.content.pipeline/3.8.0.1641/contentFiles/any/netstandard2.0/CppNet.dll" Condition="Exists('$(NuGetPackageRoot)monogame.framework.content.pipeline/3.8.0.1641/contentFiles/any/netstandard2.0/CppNet.dll')">
+      <NuGetPackageId>MonoGame.Framework.Content.Pipeline</NuGetPackageId>
+      <NuGetPackageVersion>3.8.0.1641</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>CppNet.dll</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)monogame.framework.content.pipeline/3.8.0.1641/contentFiles/any/netstandard2.0/SharpDX.D3DCompiler.dll" Condition="Exists('$(NuGetPackageRoot)monogame.framework.content.pipeline/3.8.0.1641/contentFiles/any/netstandard2.0/SharpDX.D3DCompiler.dll')">
+      <NuGetPackageId>MonoGame.Framework.Content.Pipeline</NuGetPackageId>
+      <NuGetPackageVersion>3.8.0.1641</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>SharpDX.D3DCompiler.dll</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)monogame.framework.content.pipeline/3.8.0.1641/contentFiles/any/netstandard2.0/SharpDX.D3DCompiler.xml" Condition="Exists('$(NuGetPackageRoot)monogame.framework.content.pipeline/3.8.0.1641/contentFiles/any/netstandard2.0/SharpDX.D3DCompiler.xml')">
+      <NuGetPackageId>MonoGame.Framework.Content.Pipeline</NuGetPackageId>
+      <NuGetPackageVersion>3.8.0.1641</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>SharpDX.D3DCompiler.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)monogame.framework.content.pipeline/3.8.0.1641/contentFiles/any/netstandard2.0/SharpDX.dll" Condition="Exists('$(NuGetPackageRoot)monogame.framework.content.pipeline/3.8.0.1641/contentFiles/any/netstandard2.0/SharpDX.dll')">
+      <NuGetPackageId>MonoGame.Framework.Content.Pipeline</NuGetPackageId>
+      <NuGetPackageVersion>3.8.0.1641</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>SharpDX.dll</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)monogame.framework.content.pipeline/3.8.0.1641/contentFiles/any/netstandard2.0/SharpDX.xml" Condition="Exists('$(NuGetPackageRoot)monogame.framework.content.pipeline/3.8.0.1641/contentFiles/any/netstandard2.0/SharpDX.xml')">
+      <NuGetPackageId>MonoGame.Framework.Content.Pipeline</NuGetPackageId>
+      <NuGetPackageVersion>3.8.0.1641</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>SharpDX.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)monogame.framework.content.pipeline/3.8.0.1641/contentFiles/any/netstandard2.0/libmojoshader_64.dll" Condition="Exists('$(NuGetPackageRoot)monogame.framework.content.pipeline/3.8.0.1641/contentFiles/any/netstandard2.0/libmojoshader_64.dll')">
+      <NuGetPackageId>MonoGame.Framework.Content.Pipeline</NuGetPackageId>
+      <NuGetPackageVersion>3.8.0.1641</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>libmojoshader_64.dll</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)monogame.framework.content.pipeline/3.8.0.1641/contentFiles/any/netstandard2.0/mgfxc.deps.json" Condition="Exists('$(NuGetPackageRoot)monogame.framework.content.pipeline/3.8.0.1641/contentFiles/any/netstandard2.0/mgfxc.deps.json')">
+      <NuGetPackageId>MonoGame.Framework.Content.Pipeline</NuGetPackageId>
+      <NuGetPackageVersion>3.8.0.1641</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>mgfxc.deps.json</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)monogame.framework.content.pipeline/3.8.0.1641/contentFiles/any/netstandard2.0/mgfxc.dll" Condition="Exists('$(NuGetPackageRoot)monogame.framework.content.pipeline/3.8.0.1641/contentFiles/any/netstandard2.0/mgfxc.dll')">
+      <NuGetPackageId>MonoGame.Framework.Content.Pipeline</NuGetPackageId>
+      <NuGetPackageVersion>3.8.0.1641</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>mgfxc.dll</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)monogame.framework.content.pipeline/3.8.0.1641/contentFiles/any/netstandard2.0/mgfxc.exe" Condition="Exists('$(NuGetPackageRoot)monogame.framework.content.pipeline/3.8.0.1641/contentFiles/any/netstandard2.0/mgfxc.exe')">
+      <NuGetPackageId>MonoGame.Framework.Content.Pipeline</NuGetPackageId>
+      <NuGetPackageVersion>3.8.0.1641</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>mgfxc.exe</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)monogame.framework.content.pipeline/3.8.0.1641/contentFiles/any/netstandard2.0/mgfxc.pdb" Condition="Exists('$(NuGetPackageRoot)monogame.framework.content.pipeline/3.8.0.1641/contentFiles/any/netstandard2.0/mgfxc.pdb')">
+      <NuGetPackageId>MonoGame.Framework.Content.Pipeline</NuGetPackageId>
+      <NuGetPackageVersion>3.8.0.1641</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>mgfxc.pdb</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)monogame.framework.content.pipeline/3.8.0.1641/contentFiles/any/netstandard2.0/mgfxc.runtimeconfig.dev.json" Condition="Exists('$(NuGetPackageRoot)monogame.framework.content.pipeline/3.8.0.1641/contentFiles/any/netstandard2.0/mgfxc.runtimeconfig.dev.json')">
+      <NuGetPackageId>MonoGame.Framework.Content.Pipeline</NuGetPackageId>
+      <NuGetPackageVersion>3.8.0.1641</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>mgfxc.runtimeconfig.dev.json</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)monogame.framework.content.pipeline/3.8.0.1641/contentFiles/any/netstandard2.0/mgfxc.runtimeconfig.json" Condition="Exists('$(NuGetPackageRoot)monogame.framework.content.pipeline/3.8.0.1641/contentFiles/any/netstandard2.0/mgfxc.runtimeconfig.json')">
+      <NuGetPackageId>MonoGame.Framework.Content.Pipeline</NuGetPackageId>
+      <NuGetPackageVersion>3.8.0.1641</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>mgfxc.runtimeconfig.json</Link>
+    </Content>
+  </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)monogame.content.builder.task/3.8.0.1641/build/MonoGame.Content.Builder.Task.props" Condition="Exists('$(NuGetPackageRoot)monogame.content.builder.task/3.8.0.1641/build/MonoGame.Content.Builder.Task.props')" />
+  </ImportGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgMonoGame_Content_Builder_Task Condition=" '$(PkgMonoGame_Content_Builder_Task)' == '' ">/Users/victor/.nuget/packages/monogame.content.builder.task/3.8.0.1641</PkgMonoGame_Content_Builder_Task>
+  </PropertyGroup>
+</Project>
