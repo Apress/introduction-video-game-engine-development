@@ -3,7 +3,7 @@
 This repository accompanies [*Introduction to Video Game Engine Development*](https://www.apress.com/9781484270387) by Victor Brusca (Apress, 2021).
 
 [comment]: #cover
-![Cover image](9781484270387.jpg)
+![Cover image](../9781484270387.jpg)
 
 ## Downloadable Chapters
 Chapters 20 - 24, the DungeonTrap game build, were excluded from the published text due to their size. You can find these chapters in the 'Bonus chapters' folder of this repo.
