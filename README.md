@@ -22,13 +22,16 @@ See the file Contributing.md for more information on how you can contribute to t
 
 ## General Project Notes
 Ssome general project notes to help make sure you have things setup correctly and can address the most common issues quickly are as follows:
+
 Java:
 - The game project should be configured with a working directory set to './dist' in the project's 'Run' settings.
 
 Java and C#: 
 - The ENGINE_CONFIG_FILE field of the static main class should point to the game project's config file in the 'cfg' directory with a relative path from the project's working directory.    
 - The game engine config file should have a NAME entry with a value that is the same as its associated project and that project's resource folder.    
-- To turn off the gamepad 1 input add this line to your game engine config file: <entry key="GAMEPAD_1_ON" val="false" type="bool" from="GameSettings" />
+- To turn off the gamepad 1 input add this line to your game engine config file:
+    
+    &lt;entry key="GAMEPAD_1_ON" val="false" type="bool" from="GameSettings" /&gt;
 
 ## Downloadable Chapters
 Chapters 20 - 24, the DungeonTrap game build, were excluded from the published text due to their size. You can find these chapters in the 'Bonus chapters' folder of this repo.
