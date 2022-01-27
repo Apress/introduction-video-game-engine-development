@@ -544,10 +544,10 @@ namespace net.middlemind.MmgGameApiCs.MmgCore
         /// </summary>
         /// <param name="sender">The source of the event.</param>
         /// <param name="e">Event arguments.</param>
-        private void windowActivated(object sender, EventArgs e)
+        public virtual void windowActivated(object sender, EventArgs e)
         {
             canvas = Window;
-            setSize(MmgApiGame.WIN_WIDTH, MmgApiGame.WIN_HEIGHT);
+            setSize(winWidth, winHeight);
             setResizable(false);
             setVisible(true);
             setName(GameSettings.NAME);
