@@ -9,7 +9,7 @@ Download the files as a zip using the green button, or clone the repository to y
 
 ## Releases
 
-Release v1.0 corresponds to the code in the published book, without corrections or updates.
+Release v1.1 corresponds to the code in the published book, without corrections or updates.
 
 ## Contributions
 
@@ -32,6 +32,15 @@ Java and C#:
 - To turn off the gamepad 1 input add this line to your game engine config file:
     
     &lt;entry key="GAMEPAD_1_ON" val="false" type="bool" from="GameSettings" /&gt;
+
+## Bug Fixes
+C#:
+The C# version of the game engine had a bug in the core namespace's GamePanel class, in the activateWindow method. The dimensions to the setSize method call were incorrectly pointing to an old runtime file. This has been fixed in the latest release.
+
+## Install Monogame Latest (C# Version Only):
+Although the book discusses installation steps it's probably best to visit the source due to version changes etc.
+https://docs.monogame.net/articles/getting_started/1_setting_up_your_development_environment_windows.html
+https://docs.monogame.net/articles/getting_started/1_setting_up_your_development_environment_macos.html
 
 ## Downloadable Chapters
 Chapters 20 - 24, the DungeonTrap game build, were excluded from the published text due to their size. You can find these chapters in the 'Bonus chapters' folder of this repo.
