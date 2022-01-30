@@ -7,6 +7,28 @@ This repository accompanies [*Introduction to Video Game Engine Development*](ht
 
 Download the files as a zip using the green button, or clone the repository to your machine using Git.
 
+## New Sample Game Projects
+
+A new game project, well a port of an old cell phone game, to the MmgGameApi used in this text. 
+The game is an RPG that runs off of a data file. It's a great example of how easy it is to port old Java
+based call phone games to the game engine.
+Use the link below to get the source code and check it out. Enjoy!
+
+[comment]:repo_link
+[*MmgGameApi - Tyre*](https://github.com/vbrusca/MmgGameApi-TyreSK)
+
+[comment]: #sc1
+![Cover image](https://github.com/vbrusca/MmgGameApi-TyreSK/blob/23058dff4976545097aa99cfaff054ec60535af5/storage/tyre_cs_sc1.png)
+
+[comment]: #sc2
+![Cover image](https://github.com/vbrusca/MmgGameApi-TyreSK/blob/23058dff4976545097aa99cfaff054ec60535af5/storage/tyre_cs_sc2.png)
+
+[comment]: #sc3
+![Cover image](https://github.com/vbrusca/MmgGameApi-TyreSK/blob/23058dff4976545097aa99cfaff054ec60535af5/storage/tyre_java_sc1.png)
+
+[comment]: #sc4
+![Cover image](https://github.com/vbrusca/MmgGameApi-TyreSK/blob/23058dff4976545097aa99cfaff054ec60535af5/storage/tyre_java_sc2.png)
+
 ## Releases
 
 Release v1.1 corresponds to the code in the published book, without corrections or updates.
