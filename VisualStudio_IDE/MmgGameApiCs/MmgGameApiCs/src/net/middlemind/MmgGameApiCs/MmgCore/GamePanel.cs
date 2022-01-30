@@ -400,6 +400,11 @@ namespace net.middlemind.MmgGameApiCs.MmgCore
         private Color DarkGray = new Color(64, 64, 64);
 
         /// <summary>
+        /// The color to use to draw the background of this panel.
+        /// </summary>
+        private Color bgColor = MmgColor.GetLightGray().GetColor();
+
+        /// <summary>
         /// A helper variable used to hold a debug font.
         /// </summary>
         private MmgFont mmgDebugFont = null;
@@ -568,7 +573,7 @@ namespace net.middlemind.MmgGameApiCs.MmgCore
         /// </summary>
         /// <param name="sender">The source of the event.</param>
         /// <param name="e">Event arguments.</param>
-        private void windowClosing(object sender, EventArgs e)
+        public virtual void windowClosing(object sender, EventArgs e)
         {
             try
             {
@@ -648,7 +653,7 @@ namespace net.middlemind.MmgGameApiCs.MmgCore
         /// </summary>
         protected override void LoadContent()
         {
-            MmgHelper.wr("===============LoadContent");
+            MmgHelper.wr("===============LoadContent!!!!!");
 
             MmgScreenData.GRAPHICS_CONFIG = gdm.GraphicsDevice;
             Content.RootDirectory = "Content";
@@ -2276,6 +2281,22 @@ namespace net.middlemind.MmgGameApiCs.MmgCore
         }
 
         /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="c"></param>
+        public void SetBgColor(Color c) {
+            bgColor = c;
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
+        public Color GetBgColor() {
+            return bgColor;
+        }
+
+        /// <summary>
         /// Sets the display text of the frame rate label.
         /// </summary>
         /// <param name="fr">A long representing the current drawing frame rate, or the frame rate if no time lock is applied.</param>
@@ -2397,6 +2418,8 @@ namespace net.middlemind.MmgGameApiCs.MmgCore
             p.SetAdvRenderHints();
 
             bg.Begin(SpriteSortMode.Immediate, BlendState.NonPremultiplied);
+            bg.GraphicsDevice.Clear(bgColor);
+
             //draws a scaled version of the state of the background buffer to the screen buffer if scaling is enabled
             if (scale != 1.0)
             {

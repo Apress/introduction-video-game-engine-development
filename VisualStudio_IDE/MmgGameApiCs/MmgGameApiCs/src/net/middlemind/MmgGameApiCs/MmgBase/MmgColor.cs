@@ -536,7 +536,7 @@ namespace net.middlemind.MmgGameApiCs.MmgBase
         /// <returns>A new MmgColor object that has transparent color.</returns>
         public static MmgColor GetTransparent()
         {
-            return new MmgColor(new Color(0f, 0f, 0f, 1f));
+            return new MmgColor(Microsoft.Xna.Framework.Color.Transparent);
         }
 
         /// <summary>

@@ -2,8 +2,7 @@
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
-namespace net.middlemind.MmgGameApiCs.MmgBase
-{
+namespace net.middlemind.MmgGameApiCs.MmgBase {
     /// <summary>
     /// Class that wraps the lower level font class. 
     /// Created by Middlemind Games 08/29/2016
@@ -11,8 +10,7 @@ namespace net.middlemind.MmgGameApiCs.MmgBase
     /// @author Victor G.Brusca
     /// </summary>
     [System.Diagnostics.CodeAnalysis.SuppressMessage("Style", "IDE1006:Naming Styles", Justification = "<Pending>")]
-    public class MmgFont : MmgObj
-    {
+    public class MmgFont : MmgObj {
         /// <summary>
         /// Font of this class.
         /// </summary>
@@ -33,8 +31,7 @@ namespace net.middlemind.MmgGameApiCs.MmgBase
         /// <summary>
         /// An enumeration that is used to describe the style of a particular font.
         /// </summary>
-        public enum FontType
-        {
+        public enum FontType {
             NORMAL = 0,
             BOLD = 1,
             ITALIC = 2,
@@ -48,10 +45,14 @@ namespace net.middlemind.MmgGameApiCs.MmgBase
         private FontType fontType = FontType.NONE;
 
         /// <summary>
+        /// Used to control the enforcing of the proper font size in the setFontSize method.
+        /// </summary>
+        public static bool PASSIVE_FONT_SIZE = true;
+
+        /// <summary>
         /// Constructor for this class.
         /// </summary>
-        public MmgFont() : base()
-        {
+        public MmgFont() : base() {
             text = "";
             font = null;
             SetWidth(0);
@@ -63,8 +64,7 @@ namespace net.middlemind.MmgGameApiCs.MmgBase
         /// argument.
         /// </summary>
         /// <param name="obj">The MmgObj to use.</param>
-        public MmgFont(MmgObj obj) : base(obj)
-        {
+        public MmgFont(MmgObj obj) : base(obj) {
             text = "";
             font = null;
             SetWidth(0);
@@ -76,8 +76,7 @@ namespace net.middlemind.MmgGameApiCs.MmgBase
         /// </summary>
         /// <param name="tf">Font to use for text drawing.</param>
         /// <param name="fontType">The font type of the given font argument.</param>
-        public MmgFont(SpriteFont tf, FontType fontType) : base()
-        {
+        public MmgFont(SpriteFont tf, FontType fontType) : base() {
             text = "";
             font = tf;
             SetFontType(fontType);
@@ -91,12 +90,26 @@ namespace net.middlemind.MmgGameApiCs.MmgBase
         /// <param name="tf">Font to use for text drawing.</param>
         /// <param name="fontSize">The size of the given font argument.</param>
         /// <param name="fontType">The font type of the given font argument.</param>
-        public MmgFont(SpriteFont tf, int fontSize, FontType fontType) : base()
-        {
+        public MmgFont(SpriteFont tf, int fontSize, FontType fontType, bool passive) : base() {
             text = "";
             font = tf;
             SetFontType(fontType);
-            SetFontSize(fontSize);
+            SetFontSize(fontSize, passive);
+            SetWidth(0);
+            SetHeight(0);
+        }
+
+        /// <summary>
+        /// Constructor that sets the lower level font class and descriptive class fields.
+        /// </summary>
+        /// <param name="tf">Font to use for text drawing.</param>
+        /// <param name="fontSize">The size of the given font argument.</param>
+        /// <param name="fontType">The font type of the given font argument.</param>
+        public MmgFont(SpriteFont tf, int fontSize, FontType fontType) : base() {
+            text = "";
+            font = tf;
+            SetFontType(fontType);
+            SetFontSize(fontSize, false);
             SetWidth(0);
             SetHeight(0);
         }
@@ -105,31 +118,24 @@ namespace net.middlemind.MmgGameApiCs.MmgBase
         /// Constructor that sets attributes based on the given argument.
         /// </summary>
         /// <param name="obj">The MmgFont class instance to use to set all the class fields.</param>
-        public MmgFont(MmgFont obj) : base()
-        {
+        public MmgFont(MmgFont obj) : base() {
             SetFont(obj.GetFont());
             SetFontType(obj.GetFontType());
             SetFontSize(obj.GetFontSize());
             SetFont(obj.GetFont());
             SetText(obj.GetText());
 
-            if (obj.GetPosition() == null)
-            {
+            if (obj.GetPosition() == null) {
                 SetPosition(obj.GetPosition());
-            }
-            else
-            {
+            } else {
                 SetPosition(obj.GetPosition().Clone());
             }
 
             SetIsVisible(obj.GetIsVisible());
 
-            if (obj.GetMmgColor() == null)
-            {
+            if (obj.GetMmgColor() == null) {
                 SetMmgColor(obj.GetMmgColor());
-            }
-            else
-            {
+            } else {
                 SetMmgColor(obj.GetMmgColor().Clone());
             }
 
@@ -146,8 +152,7 @@ namespace net.middlemind.MmgGameApiCs.MmgBase
         /// <param name="cl">Color to use to draw the text.</param>
         /// <param name="fontSize">TODO: Add comment</param>
         /// <param name="fontType">TODO: Add comment</param>
-        public MmgFont(SpriteFont sf, String txt, MmgVector2 pos, MmgColor cl, FontType fontType) : base()
-        {
+        public MmgFont(SpriteFont sf, String txt, MmgVector2 pos, MmgColor cl, FontType fontType) : base() {
             SetFont(sf);
             SetFontType(fontType);
             SetText(txt);
@@ -165,8 +170,7 @@ namespace net.middlemind.MmgGameApiCs.MmgBase
         /// <param name="cl">Color to use to draw the text.</param>
         /// <param name="fontSize">TODO: Add comment</param>
         /// <param name="fontType">TODO: Add comment</param>
-        public MmgFont(SpriteFont sf, String txt, MmgVector2 pos, MmgColor cl, int fontSize, FontType fontType) : base()
-        {
+        public MmgFont(SpriteFont sf, String txt, MmgVector2 pos, MmgColor cl, int fontSize, FontType fontType) : base() {
             SetFont(sf);
             SetFontType(fontType);
             SetFontSize(fontSize);
@@ -186,8 +190,7 @@ namespace net.middlemind.MmgGameApiCs.MmgBase
         /// <param name="cl">Color to use to draw the text.</param>
         /// <param name="fontSize">TODO: Add comment</param>
         /// <param name="fontType">TODO: Add comment</param>
-        public MmgFont(SpriteFont sf, String txt, int x, int y, MmgColor cl, FontType fontType)
-        {
+        public MmgFont(SpriteFont sf, String txt, int x, int y, MmgColor cl, FontType fontType) {
             SetFont(sf);
             SetFontType(fontType);
             SetText(txt);
@@ -206,8 +209,7 @@ namespace net.middlemind.MmgGameApiCs.MmgBase
         /// <param name="cl">Color to use to draw the text.</param>
         /// <param name="fontSize">TODO: Add comment</param>
         /// <param name="fontType">TODO: Add comment</param>
-        public MmgFont(SpriteFont sf, String txt, int x, int y, MmgColor cl, int fontSize, FontType fontType)
-        {
+        public MmgFont(SpriteFont sf, String txt, int x, int y, MmgColor cl, int fontSize, FontType fontType) {
             SetFont(sf);
             SetFontType(fontType);
             SetFontSize(fontSize);
@@ -221,8 +223,7 @@ namespace net.middlemind.MmgGameApiCs.MmgBase
         /// Creates a basic clone of this class.
         /// </summary>
         /// <returns>A clone of this class.</returns>
-        public override MmgObj Clone()
-        {
+        public override MmgObj Clone() {
             return (MmgObj)new MmgFont(this);
         }
 
@@ -230,8 +231,7 @@ namespace net.middlemind.MmgGameApiCs.MmgBase
         /// Creates a typed clone of this class.
         /// </summary>
         /// <returns>A typed clone of this class.</returns>
-        public virtual new MmgFont CloneTyped()
-        {
+        public virtual new MmgFont CloneTyped() {
             return new MmgFont(this);
         }
 
@@ -239,8 +239,7 @@ namespace net.middlemind.MmgGameApiCs.MmgBase
         /// Gets the text for this object.
         /// </summary>
         /// <returns>The text for this object.</returns>
-        public virtual string GetText()
-        {
+        public virtual string GetText() {
             return text;
         }
 
@@ -250,25 +249,18 @@ namespace net.middlemind.MmgGameApiCs.MmgBase
         /// object.
         /// </summary>
         /// <param name="s">The text for this object.</param>
-        public virtual void SetText(string s)
-        {
-            if (s != null)
-            {
+        public virtual void SetText(string s) {
+            if (s != null) {
                 text = s;
-                if ("".Equals(text) == false)
-                {
+                if ("".Equals(text) == false) {
                     Vector2 v2 = font.MeasureString(text);
                     SetWidth((int)v2.X);
                     SetHeight((int)v2.Y);
-                }
-                else
-                {
+                } else {
                     SetWidth(0);
                     SetHeight(0);
                 }
-            }
-            else
-            {
+            } else {
                 text = null;
                 SetWidth(0);
                 SetHeight(0);
@@ -279,8 +271,7 @@ namespace net.middlemind.MmgGameApiCs.MmgBase
         /// Gets the font style of this font.
         /// </summary>
         /// <returns>The font style of this font.</returns>
-        public virtual FontType GetFontType()
-        {
+        public virtual FontType GetFontType() {
             return fontType;
         }
 
@@ -288,51 +279,49 @@ namespace net.middlemind.MmgGameApiCs.MmgBase
         /// Sets the font style of this font.
         /// </summary>
         /// <param name="ft">THe font style of this font.</param>
-        public virtual void SetFontType(FontType ft)
-        {
+        public virtual void SetFontType(FontType ft) {
             fontType = ft;
+        }
+
+        public virtual void SetFontSize(int sz, bool passive) {
+            if(passive == true) {
+                fontSize = sz;
+            } else {
+                SetFontSize(sz);
+            }
         }
 
         /// <summary>
         /// Sets the size of the font.
         /// </summary>
         /// <param name="sz">The size of the font.</param>
-        public virtual void SetFontSize(int sz)
-        {
-            if (sz > 0 && sz <= MmgFontData.MAX_FONT_SIZE)
-            {
-                if (sz != fontSize)
-                {
+        public virtual void SetFontSize(int sz) {
+            if(PASSIVE_FONT_SIZE == true) {
+                fontSize = sz;
+                return;
+            }
+
+            if (sz > 0 && sz <= MmgFontData.MAX_FONT_SIZE) {
+                if (sz != fontSize) {
                     fontSize = sz;
-                    if (fontType == FontType.NORMAL)
-                    {
+                    if (fontType == FontType.NORMAL) {
                         //normal
                         font = MmgScreenData.CONTENT_MANAGER.Load<SpriteFont>(MmgFontData.FONT_KEY_NORMAL + fontSize);
-                    }
-                    else if (fontType == FontType.BOLD)
-                    {
+                    } else if (fontType == FontType.BOLD) {
                         //bold
                         font = MmgScreenData.CONTENT_MANAGER.Load<SpriteFont>(MmgFontData.FONT_KEY_BOLD + fontSize);
-                    }
-                    else if (fontType == FontType.ITALIC)
-                    {
+                    } else if (fontType == FontType.ITALIC) {
                         //italic
                         font = MmgScreenData.CONTENT_MANAGER.Load<SpriteFont>(MmgFontData.FONT_KEY_ITALIC + fontSize);
-                    }
-                    else if (fontType == FontType.NONE)
-                    {
+                    } else if (fontType == FontType.NONE) {
                         //normal
                         font = MmgScreenData.CONTENT_MANAGER.Load<SpriteFont>(MmgFontData.FONT_KEY_NORMAL + fontSize);
-                    }
-                    else
-                    {
+                    } else {
                         //normal
                         font = MmgScreenData.CONTENT_MANAGER.Load<SpriteFont>(MmgFontData.FONT_KEY_NORMAL + fontSize);
                     }
                 }
-            }
-            else
-            {
+            } else {
                 MmgHelper.wr("MmgFont: Error size must be greater than 0 and less than " + MmgFontData.MAX_FONT_SIZE);
             }
         }
@@ -341,8 +330,7 @@ namespace net.middlemind.MmgGameApiCs.MmgBase
         /// Gets the size of the font.
         /// </summary>
         /// <returns>The size of the font.</returns>
-        public virtual int GetFontSize()
-        {
+        public virtual int GetFontSize() {
             return fontSize;
         }
 
@@ -350,8 +338,7 @@ namespace net.middlemind.MmgGameApiCs.MmgBase
         /// Sets the sprite font, or font to use to draw text.
         /// </summary>
         /// <param name="spf">The font to use for this MmgFont object.</param>
-        public virtual void SetFont(SpriteFont spf)
-        {
+        public virtual void SetFont(SpriteFont spf) {
             font = spf;
         }
 
@@ -359,8 +346,7 @@ namespace net.middlemind.MmgGameApiCs.MmgBase
         /// Gets the font object used to draw text.
         /// </summary>
         /// <returns>The font used to draw text.</returns>
-        public virtual SpriteFont GetFont()
-        {
+        public virtual SpriteFont GetFont() {
             return font;
         }
 
@@ -368,10 +354,8 @@ namespace net.middlemind.MmgGameApiCs.MmgBase
         /// The base drawing method used to draw this object.
         /// </summary>
         /// <param name="p">The MmgPen used to draw this object.</param>
-        public override void MmgDraw(MmgPen p)
-        {
-            if (isVisible == true)
-            {
+        public override void MmgDraw(MmgPen p) {
+            if (isVisible == true) {
                 p.DrawText(this);
             }
         }
@@ -382,14 +366,10 @@ namespace net.middlemind.MmgGameApiCs.MmgBase
         /// </summary>
         /// <param name="obj">The MmgFont object to compare</param>
         /// <returns>A boolean indicating if the object instance is equal to the argument object instance.</returns>
-        public virtual bool ApiEquals(MmgFont obj)
-        {
-            if (obj == null)
-            {
+        public virtual bool ApiEquals(MmgFont obj) {
+            if (obj == null) {
                 return false;
-            }
-            else if (obj.Equals(this))
-            {
+            } else if (obj.Equals(this)) {
                 return true;
             }
 
@@ -417,8 +397,7 @@ namespace net.middlemind.MmgGameApiCs.MmgBase
                 base.ApiEquals((MmgObj)obj)
                 && ((obj.GetFont() == null && GetFont() == null) || (obj.GetFont() != null && GetFont() != null && obj.GetFont() == GetFont()))
                 && ((obj.GetText() == null && GetText() == null) || (obj.GetText() != null && GetText() != null && obj.GetText().Equals(GetText())))
-            )
-            {
+            ) {
                 ret = true;
             }
             return ret;

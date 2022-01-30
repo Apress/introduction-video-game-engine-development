@@ -503,7 +503,7 @@ public class MmgColor {
      * @return      A new MmgColor object that has transparent color.
      */
     public static MmgColor GetTransparent() {
-        return new MmgColor(new Color(0f, 0f, 0f, 1f));
+        return new MmgColor(new Color(0f, 0f, 0f, 0f));
     }    
     
     /**

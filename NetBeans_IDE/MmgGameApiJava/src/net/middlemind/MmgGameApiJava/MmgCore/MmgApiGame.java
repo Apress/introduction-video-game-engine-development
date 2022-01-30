@@ -31,12 +31,12 @@ public class MmgApiGame {
     /**
      * The target window width.
      */
-    public static int WIN_WIDTH = 862;
+    public static int WIN_WIDTH = 858;
 
     /**
      * The target window height.
      */
-    public static int WIN_HEIGHT = 604;
+    public static int WIN_HEIGHT = 600;
 
     /**
      * The game panel width.

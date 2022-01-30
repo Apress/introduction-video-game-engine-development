@@ -603,6 +603,7 @@ namespace net.middlemind.MmgGameApiCs.MmgBase
             {
                 dBmpSet.graphics.GraphicsDevice.SetRenderTarget(dBmpSet.buffImg);
                 dBmpSet.graphics.GraphicsDevice.Clear(Color.Transparent);
+                dBmpSet.graphics.GraphicsDevice.SetRenderTarget(null);
             }
 
             return dBmpSet;
