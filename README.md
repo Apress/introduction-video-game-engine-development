@@ -57,7 +57,14 @@ Java and C#:
 
 ## Bug Fixes
 C#:
-The C# version of the game engine had a bug in the core namespace's GamePanel class, in the activateWindow method. The dimensions to the setSize method call were incorrectly pointing to an old runtime file. This has been fixed in the latest release.
+- GamePanel.cs: Added support to allow access to windowActivated, windowClosing method so they can be overridden and customized. Fixed window size bug where the dimensions were pointing to the wrong class fields.
+- MmgColor.cs: Fixed the GetTransparent() color method to actually return a transparent color.
+- MmgHelper.cs: Small bug fix to set render target to null.
+- MmgFont.cs: Added passive mode support to a constructor and as a static field so that you can bypass the font size enforcement.
+
+Java:
+- General: Set window dimensions to prevent a flicker on some systems.
+- MmgColor.java: Fixed the GetTransparent() color method to actually return a transparent color.
 
 ## Install Monogame Latest (C# Version Only):
 Although the book discusses installation steps it's probably best to visit the source due to version changes etc.
@@ -65,19 +72,19 @@ https://docs.monogame.net/articles/getting_started/1_setting_up_your_development
 https://docs.monogame.net/articles/getting_started/1_setting_up_your_development_environment_macos.html
 
 ## Downloadable Chapters
-Chapters 20 - 24, the DungeonTrap game build, were excluded from the published text due to their size. You can find these chapters in the 'Bonus chapters' folder of this repo.
+Chapters 20 - 24, E1 - E5, the DungeonTrap game build, were excluded from the published text due to their size. You can find these chapters in the 'Bonus chapters' folder of this repo.
 
-### Chapter 20: DungeonTrap Project Setup
+### Chapter 20: DungeonTrap Project Setup (E1)
 Chapter 20 starts the game build process by getting your development environment setup and ready to go. You'll also get the project compiled and running with a generic main menu screen.
 
-### Chapter 21: DungeonTrap Main Menu Screen
+### Chapter 21: DungeonTrap Main Menu Screen (E2)
 In Chapter 21, we add in a custom main menu screen and supporting classes then run the game to demonstrate the changes.
 
-### Chapter 22: DungeonTrap Base Classes
+### Chapter 22: DungeonTrap Base Classes (E3)
 In this chapter you'll start creating the classes that power the DungeonTrap game by defining the base classes that form the game's foundation.
 
-### Chapter 23: DungeonTrap Level 1 and 2 Extended Classes
+### Chapter 23: DungeonTrap Level 1 and 2 Extended Classes (E4)
 Chapter 23 takes us further along in our game creation journey by defining all the classes that extend the game's base classes.
 
-### Chapter 24: Completing The Game
+### Chapter 24: Completing The Game (E5)
 In this chapter we complete the DungeonTrap game by reviewing the finished game classes one method at a time.
