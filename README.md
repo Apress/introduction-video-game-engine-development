@@ -61,10 +61,16 @@ C#:
 - MmgColor.cs: Fixed the GetTransparent() color method to actually return a transparent color.
 - MmgHelper.cs: Small bug fix to set render target to null.
 - MmgFont.cs: Added passive mode support to a constructor and as a static field so that you can bypass the font size enforcement.
+- MmgCentralMain.cs: Added work to make the chapter strings work with E# and 2# chapter numberings.
+- RunResourceLoad.cs: Adjusted loading process to support relaive paths.
+- MmgHelper.cs: Adjusted create bmp set to properly clear the bitmap with transparency.
+- Assorted MmgBase classes: Added a clear to transparent for certain advanced classes.
 
 Java:
 - General: Set window dimensions to prevent a flicker on some systems.
 - MmgColor.java: Fixed the GetTransparent() color method to actually return a transparent color.
+- MmgCentralMain.java: Added work to make the chapter strings work with E# and 2# chapter numberings.
+- RunResourceLoad.java: Adjusted loading process to support relaive paths.
 
 ## Install Monogame Latest (C# Version Only):
 Although the book discusses installation steps it's probably best to visit the source due to version changes etc.
