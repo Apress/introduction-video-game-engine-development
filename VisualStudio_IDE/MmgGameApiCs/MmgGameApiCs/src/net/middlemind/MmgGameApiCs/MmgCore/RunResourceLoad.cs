@@ -171,7 +171,7 @@ namespace net.middlemind.MmgGameApiCs.MmgCore
 
                     for (j = 0; j < srcFiles.Length; j++)
                     {
-                        if (srcFiles[j].Name.ToCharArray()[0] != '.' && (srcFiles[j].Name.ToLower().IndexOf(".png") != -1 || srcFiles[j].Name.ToLower().IndexOf(".jpg") != -1 || srcFiles[j].Name.ToLower().IndexOf(".bmp") != -1))
+                        if (((srcFiles[j].Name.ToCharArray()[0] != '.') || (srcFiles[j].FullName.ToCharArray()[0] == '.' && srcFiles[j].FullName.ToCharArray()[1] == Path.DirectorySeparatorChar) || srcFiles[j].FullName.ToCharArray()[0] == '.' && srcFiles[j].FullName.ToCharArray()[1] == '.') && (srcFiles[j].Name.ToLower().IndexOf(".jpg") != -1 || srcFiles[j].Name.ToLower().IndexOf(".bmp") != -1 || srcFiles[j].Name.ToLower().IndexOf(".png") != -1))
                         {
                             clnFiles.Add(srcFiles[j]);
                         }
@@ -193,7 +193,7 @@ namespace net.middlemind.MmgGameApiCs.MmgCore
 
                     for (j = 0; j < srcFiles.Length; j++)
                     {
-                        if (srcFiles[j].Name.ToCharArray()[0] != '.' && srcFiles[j].Name.ToLower().IndexOf(".wav") != -1)
+                        if (((srcFiles[j].Name.ToCharArray()[0] != '.') || (srcFiles[j].FullName.ToCharArray()[0] == '.' && srcFiles[j].FullName.ToCharArray()[1] == Path.PathSeparator) || srcFiles[j].FullName.ToCharArray()[0] == '.' && srcFiles[j].FullName.ToCharArray()[1] == '.') && srcFiles[j].Name.ToLower().IndexOf(".wav") != -1) 
                         {
                             clnFiles.Add(srcFiles[j]);
                         }

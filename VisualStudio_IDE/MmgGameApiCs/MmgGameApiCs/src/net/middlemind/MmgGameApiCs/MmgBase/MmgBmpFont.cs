@@ -223,6 +223,7 @@ namespace net.middlemind.MmgGameApiCs.MmgBase
                     bmpSet = MmgHelper.CreateDrawableBmpSet(w, height, true);
                     bmpSet.p.GetGraphics().GraphicsDevice.SetRenderTarget(bmpSet.buffImg);
                     bmpSet.p.GetGraphics().Begin(SpriteSortMode.Immediate, BlendState.NonPremultiplied);
+                    bmpSet.p.GetGraphics().GraphicsDevice.Clear(MmgColor.GetTransparent().GetColor());
                     bmpSet.p.DrawBmp(src, new MmgRect(start, 0, height, start + w), new MmgRect(0, 0, height, w));
                     bmpSet.p.GetGraphics().End();
                     bmpSet.p.GetGraphics().GraphicsDevice.SetRenderTarget(null);
@@ -730,6 +731,7 @@ namespace net.middlemind.MmgGameApiCs.MmgBase
 
                 bmpSet.p.GetGraphics().GraphicsDevice.SetRenderTarget(bmpSet.buffImg);
                 bmpSet.p.GetGraphics().Begin(SpriteSortMode.Immediate, BlendState.AlphaBlend);
+                bmpSet.p.GetGraphics().GraphicsDevice.Clear(MmgColor.GetTransparent().GetColor());
 
                 MmgBmp img = null;
                 for (i = 0; i < len; i++)

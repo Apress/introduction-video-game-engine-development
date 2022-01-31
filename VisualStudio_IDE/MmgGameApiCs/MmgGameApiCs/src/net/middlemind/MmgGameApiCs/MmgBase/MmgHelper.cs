@@ -602,7 +602,9 @@ namespace net.middlemind.MmgGameApiCs.MmgBase
             if (alpha)
             {
                 dBmpSet.graphics.GraphicsDevice.SetRenderTarget(dBmpSet.buffImg);
+                dBmpSet.graphics.Begin(SpriteSortMode.Immediate, BlendState.AlphaBlend);
                 dBmpSet.graphics.GraphicsDevice.Clear(Color.Transparent);
+                dBmpSet.graphics.End();
                 dBmpSet.graphics.GraphicsDevice.SetRenderTarget(null);
             }
 
@@ -623,7 +625,9 @@ namespace net.middlemind.MmgGameApiCs.MmgBase
         {
             MmgDrawableBmpSet dBmpSet = MmgHelper.CreateDrawableBmpSet(width, height, alpha);
             dBmpSet.graphics.GraphicsDevice.SetRenderTarget(dBmpSet.buffImg);
+            dBmpSet.graphics.Begin(SpriteSortMode.Immediate, BlendState.AlphaBlend);
             dBmpSet.graphics.GraphicsDevice.Clear(color.GetColor());
+            dBmpSet.graphics.End();
             dBmpSet.graphics.GraphicsDevice.SetRenderTarget(null);
             return dBmpSet;
         }

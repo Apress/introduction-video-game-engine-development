@@ -133,7 +133,7 @@ public class RunResourceLoad implements Runnable {
                 clnFiles = new ArrayList();
 
                 for(j = 0; j < srcFiles.length; j++) {
-                    if(srcFiles[j].getName().charAt(0) != '.' && (srcFiles[j].getName().toLowerCase().indexOf(".png") != -1 || srcFiles[j].getName().toLowerCase().indexOf(".jpg") != -1 || srcFiles[j].getName().toLowerCase().indexOf(".bmp") != -1)) {
+                    if(((srcFiles[j].getPath().charAt(0) != '.') || (srcFiles[j].getPath().charAt(0) == '.' && srcFiles[j].getPath().charAt(1) == File.separatorChar) || srcFiles[j].getPath().charAt(0) == '.' && srcFiles[j].getPath().charAt(1) == '.') && (srcFiles[j].getPath().toLowerCase().indexOf(".jpg") != -1 || srcFiles[j].getPath().toLowerCase().indexOf(".bmp") != -1 || srcFiles[j].getPath().toLowerCase().indexOf(".png") != -1)) {
                         clnFiles.add(srcFiles[j]);
                     }
                 }
@@ -151,7 +151,7 @@ public class RunResourceLoad implements Runnable {
                 clnFiles = new ArrayList();
 
                 for(j = 0; j < srcFiles.length; j++) {
-                    if(srcFiles[j].getName().charAt(0) != '.' && srcFiles[j].getName().toLowerCase().indexOf(".wav") != -1) {
+                    if(((srcFiles[j].getPath().charAt(0) != '.') || (srcFiles[j].getPath().charAt(0) == '.' && srcFiles[j].getPath().charAt(1) == File.separatorChar) || srcFiles[j].getPath().charAt(0) == '.' && srcFiles[j].getPath().charAt(1) == '.') && srcFiles[j].getPath().toLowerCase().indexOf(".wav") != -1) {                        
                         clnFiles.add(srcFiles[j]);
                     }
                 }
