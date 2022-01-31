@@ -1,28 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/MmgGameApiCs.csproj": {}
+    "C:\\Users\\variable\\Documents\\GitHub\\introduction-video-game-engine-development\\VisualStudio_IDE\\MmgGameApiCs\\MmgGameApiCs\\MmgGameApiCs.csproj": {}
   },
   "projects": {
-    "/Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/MmgGameApiCs.csproj": {
+    "C:\\Users\\variable\\Documents\\GitHub\\introduction-video-game-engine-development\\VisualStudio_IDE\\MmgGameApiCs\\MmgGameApiCs\\MmgGameApiCs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/MmgGameApiCs.csproj",
+        "projectUniqueName": "C:\\Users\\variable\\Documents\\GitHub\\introduction-video-game-engine-development\\VisualStudio_IDE\\MmgGameApiCs\\MmgGameApiCs\\MmgGameApiCs.csproj",
         "projectName": "MmgGameApiCs",
-        "projectPath": "/Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/MmgGameApiCs.csproj",
-        "packagesPath": "/Users/victor/.nuget/packages/",
-        "outputPath": "/Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/obj/",
+        "projectPath": "C:\\Users\\variable\\Documents\\GitHub\\introduction-video-game-engine-development\\VisualStudio_IDE\\MmgGameApiCs\\MmgGameApiCs\\MmgGameApiCs.csproj",
+        "packagesPath": "C:\\Users\\variable\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\variable\\Documents\\GitHub\\introduction-video-game-engine-development\\VisualStudio_IDE\\MmgGameApiCs\\MmgGameApiCs\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "/Users/victor/.config/NuGet/NuGet.Config"
+          "C:\\Users\\variable\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -73,7 +72,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.201/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

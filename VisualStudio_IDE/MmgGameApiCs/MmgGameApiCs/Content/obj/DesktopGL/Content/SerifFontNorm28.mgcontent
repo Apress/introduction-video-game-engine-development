@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>/Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/Content/SerifFontNorm28.spritefont</SourceFile>
-  <SourceTime>2021-02-13T18:21:52.587298-05:00</SourceTime>
-  <DestFile>/Users/victor/Documents/files/visualstudio_workspace/MmgGameApiCs/MmgGameApiCs/Content/bin/DesktopGL/Content/SerifFontNorm28.xnb</DestFile>
-  <DestTime>2021-02-13T18:34:18.3401411-05:00</DestTime>
+  <SourceFile>C:/Users/variable/Documents/GitHub/introduction-video-game-engine-development/VisualStudio_IDE/MmgGameApiCs/MmgGameApiCs/Content/SerifFontNorm28.spritefont</SourceFile>
+  <SourceTime>2022-01-30T15:16:31.0116557-05:00</SourceTime>
+  <DestFile>C:/Users/variable/Documents/GitHub/introduction-video-game-engine-development/VisualStudio_IDE/MmgGameApiCs/MmgGameApiCs/Content/bin/DesktopGL/Content/SerifFontNorm28.xnb</DestFile>
+  <DestTime>2022-01-31T08:47:01.5031637-05:00</DestTime>
   <Importer>FontDescriptionImporter</Importer>
-  <ImporterTime>2020-08-10T16:17:54-04:00</ImporterTime>
+  <ImporterTime>2020-08-10T12:17:54-04:00</ImporterTime>
   <Processor>FontDescriptionProcessor</Processor>
-  <ProcessorTime>2020-08-10T16:17:54-04:00</ProcessorTime>
+  <ProcessorTime>2020-08-10T12:17:54-04:00</ProcessorTime>
   <Parameters>
     <Key>PremultiplyAlpha</Key>
     <Value>True</Value>
